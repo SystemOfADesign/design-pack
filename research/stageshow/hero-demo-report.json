@@ -1,0 +1,46 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit hd",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 1096,
+        "durationMs": 18246.400000095367,
+        "medianMs": 16.600000143051147,
+        "maxGapMs": 26.700000047683716,
+        "skippedGaps": 1,
+        "cameraFrames": 0,
+        "reasons": [
+          "1 sampling gap(s) exceeded 27ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 36,
+        "layout": {
+          "controls": 6,
+          "paddedContainers": 6,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "tight control: div.hd-popup-btn \"Add\" sits 6.0px under div.hd-popup-input \"Change to primary style|\"; a button keeps 8px or more from the field, line or card edge above it (4.0s, 4.5s)",
+        "tight control: div.hd-popup-btn \"Add\" sits 6.0px under div.hd-popup-input \"|\"; a button keeps 8px or more from the field, line or card edge above it (7.5s, 11.5s)",
+        "tight control: div.hd-popup-btn \"Add\" sits 6.0px under div.hd-popup-input \"Add hover states|\"; a button keeps 8px or more from the field, line or card edge above it (8.5s, 9.0s)",
+        "tight control: div.hd-popup-btn \"Add\" sits 6.0px under div.hd-popup-input \"Make this more prominent\"; a button keeps 8px or more from the field, line or card edge above it (12.5s, 13.0s)",
+        "jump: hd-caret \"|\" x +8.0px in one frame at 3.62s, 59 times",
+        "dashed edge resizes: div.hd-dragbox has a dashed or dotted edge whose box changes size, so the dashes are re-laid every frame and crawl; draw the mark at its full size on its own layer and only fade it",
+        "vanishes with no exit: div.hd-selection goes from full opacity to gone in one frame; fade it out (or move it out of view) before it is removed"
+      ],
+      "manual": [
+        "same-box content change: hd-popup-input \"|\" changes text or drawing at 3.62s; inspect the transition in motion (geometry alone cannot judge it)"
+      ]
+    }
+  ],
+  "errors": [
+    "warning: [stageshow] selection drift: a text selection drag never read a.caret(), so the highlight is not under the I-beam; set it from a.caret(name, at) in onMove",
+    "warning: [stageshow] selection drift: a text selection drag never read a.caret(), so the highlight is not under the I-beam; set it from a.caret(name, at) in onMove"
+  ],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "design-pack",
+  "version": "0.1.0",
+  "description": "SystemOfADesign: design orchestrators for people who are not designers (design-director, design-builder) plus vendored specialist skills (Stageshow).",
+  "owner": {
+    "name": "SystemOfADesign",
+    "url": "https://github.com/SystemOfADesign"
+  },
+  "plugins": [
+    {
+      "name": "design-orchestrators",
+      "description": "design-director (explore / audit / redesign / route; writes .design/brief.md or audit.md, never edits product code) and design-builder (implements an approved brief in phases, runs review passes, records DESIGN.md). Both resolve 112 specialist skills through a shared catalog.",
+      "version": "0.1.0",
+      "source": "./",
+      "skills": ["./skills/design-director", "./skills/design-builder"],
+      "author": { "name": "Nikhil Joshi", "url": "https://github.com/nikhilakjoshi" },
+      "repository": "https://github.com/SystemOfADesign/design-pack",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["design", "ui", "ux", "orchestrator", "brief", "audit", "skills"]
+    },
+    {
+      "name": "stageshow",
+      "description": "Vendored copy of Benji Taylor's Stageshow: faux product UI illustrations and cursor demo animations in React (hero shots, feature cards, bento tiles, phone stories) with a kit, gold examples and film-based verification. Upstream: benjitaylor/skills.",
+      "version": "0.1.0",
+      "source": "./plugins/stageshow",
+      "author": { "name": "Benji Taylor", "url": "https://benji.org/stageshow" },
+      "homepage": "https://benji.org/stageshow",
+      "repository": "https://github.com/benjitaylor/skills",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["design", "illustration", "faux-ui", "motion", "marketing", "react"]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "person": "Paula Scher",
+  "philosophy": "Paula Scher treats typography as image: letters are scaled, stacked, colliding and loud, carrying emotion and meaning before they are read. Her identities (The Public Theater, Citi, MoMA, Windows) are flexible typographic systems rather than fixed logos, and her hand-painted maps and environmental graphics make text itself the texture and architecture of a space.",
+  "repos": [
+    {
+      "full_name": "chenglou/pretext",
+      "url": "https://github.com/chenglou/pretext",
+      "stars": 50980,
+      "description": "Fast, accurate & comprehensive text measurement & layout",
+      "why": "Per-line text measurement/layout lets you flow type into arbitrary shapes, the core mechanic behind Scher-style text-as-texture typographic maps.",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-15T17:09:24Z"
+    },
+    {
+      "full_name": "greensock/GSAP",
+      "url": "https://github.com/greensock/GSAP",
+      "stars": 30014,
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "why": "SplitText + timelines are the industry standard for kinetic, large-scale typography that behaves like environmental signage in motion.",
+      "license": "GSAP Standard License (no SPDX)",
+      "pushed_at": "2026-04-13T13:08:58Z"
+    },
+    {
+      "full_name": "ubuwaits/beautiful-web-type",
+      "url": "https://github.com/ubuwaits/beautiful-web-type",
+      "stars": 7343,
+      "description": "In-depth guide to the best open-source typefaces: https://www.beautifulwebtype.com",
+      "why": "Curated open typefaces with strong character, useful for picking loud display faces the way Scher mixes wood-type-like weights.",
+      "license": "MIT",
+      "pushed_at": "2026-11-01T07:43:44Z"
+    },
+    {
+      "full_name": "opentypejs/opentype.js",
+      "url": "https://github.com/opentypejs/opentype.js",
+      "stars": 5041,
+      "description": "Read and write OpenType fonts using JavaScript.",
+      "why": "Exposes glyph outlines as paths so letters can be treated as image/shape material, typography-as-image at the code level.",
+      "license": "MIT",
+      "pushed_at": "2026-08-08T03:59:23Z"
+    },
+    {
+      "full_name": "github/mona-sans",
+      "url": "https://github.com/github/mona-sans",
+      "stars": 4182,
+      "description": "Mona Sans, a variable font from GitHub",
+      "why": "Wide width/weight axes let one family stretch and compress like Scher's Public Theater wordmarks across many formats.",
+      "license": "OFL-1.1",
+      "pushed_at": "2026-10-16T22:34:45Z"
+    },
+    {
+      "full_name": "arrowtype/recursive",
+      "url": "https://github.com/arrowtype/recursive",
+      "stars": 3918,
+      "description": "Recursive Mono & Sans is a variable font family for code & UI",
+      "why": "Casual/slant/weight axes give an identity a flexing, expressive voice from one source font, a flexible-system building block.",
+      "license": "OFL-1.1",
+      "pushed_at": "2025-10-02T01:50:23Z"
+    },
+    {
+      "full_name": "gkurt/tegaki",
+      "url": "https://github.com/gkurt/tegaki",
+      "stars": 3290,
+      "description": "Handwriting animation for the web. Supports any font or text.",
+      "why": "Stroke-by-stroke lettering animation evokes the hand-made, hand-painted quality of her map paintings.",
+      "license": "MIT",
+      "pushed_at": "2026-10-11T14:16:57Z"
+    },
+    {
+      "full_name": "shshaw/Splitting",
+      "url": "https://github.com/shshaw/Splitting",
+      "stars": 1757,
+      "description": "JavaScript microlibrary to split an element by words, characters, children and more, populated with CSS variables!",
+      "why": "Splits text into per-char CSS variables so headlines can be stacked, scaled, and choreographed as bold typographic compositions.",
+      "license": "MIT",
+      "pushed_at": "2024-06-19T03:08:08Z"
+    },
+    {
+      "full_name": "Jolg42/awesome-typography",
+      "url": "https://github.com/Jolg42/awesome-typography",
+      "stars": 1554,
+      "description": "Curated list about digital typography",
+      "why": "Reference index of type tools, foundries, and variable-font resources to mine for expressive type systems.",
+      "license": "CC0-1.0",
+      "pushed_at": "2026-10-20T13:45:24Z"
+    },
+    {
+      "full_name": "franktisellano/datatype",
+      "url": "https://github.com/franktisellano/datatype",
+      "stars": 1471,
+      "description": "Datatype is a variable font that turns text into charts.",
+      "why": "Turns typed text into data graphics, literally type becoming image and information, close to her information-as-typography maps.",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-05-02T01:06:01Z"
+    },
+    {
+      "full_name": "iart-ai/motion-skills",
+      "url": "https://github.com/iart-ai/motion-skills",
+      "stars": 1129,
+      "description": "50 open-source skills that teach your AI coding agent to make motion graphics, animation & video, kinetic typography, ...",
+      "why": "Agent skills for kinetic typography output, a fast way to produce Scher-like animated type identities via Claude Code.",
+      "license": "MIT",
+      "pushed_at": "2026-10-25T14:18:33Z"
+    },
+    {
+      "full_name": "fontra/fontra",
+      "url": "https://github.com/fontra/fontra",
+      "stars": 854,
+      "description": "A browser-based font editor",
+      "why": "Browser font editor (variable-capable) to draw custom display letterforms, the base of any bespoke identity wordmark system.",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-30T22:08:56Z"
+    },
+    {
+      "full_name": "fatihaydost/brand-identity-skill",
+      "url": "https://github.com/fatihaydost/brand-identity-skill",
+      "stars": 277,
+      "description": "A Claude Code skill that designs a brand identity as one system: logo, typography and colour palette built together",
+      "why": "Treats identity as one coherent typographic system rather than a logo, matching her Public Theater / Citi systems thinking.",
+      "license": "MIT",
+      "pushed_at": "2026-10-10T21:35:18Z"
+    },
+    {
+      "full_name": "NaN-xyz/Glyph-Filters",
+      "url": "https://github.com/NaN-xyz/Glyph-Filters",
+      "stars": 173,
+      "description": "Generative Fonts and Tools for Display Typography",
+      "why": "Generative display-type filters produce loud, poster-grade letterforms for expressive headline systems.",
+      "license": "OFL-1.1",
+      "pushed_at": "2024-02-12T14:09:34Z"
+    }
+  ],
+  "top_clone_picks": [
+    "chenglou/pretext",
+    "greensock/GSAP",
+    "fatihaydost/brand-identity-skill"
+  ],
+  "skills_or_tools": [
+    "Local Claude Code skill: design-html (gstack, Pretext-native HTML/CSS) for typographic layouts",
+    "Local Claude Code skill: frontend-design:frontend-design and taste-skill:design-taste-frontend for bold type-led art direction",
+    "Local Claude Code skill: animate (kinetic type motion decisions)",
+    "Local Claude Code skill: anthropic-skills:canvas-design for poster-style typographic compositions",
+    "Local Claude Code skill: figma:figma-generate-library for building a flexible identity system in Figma",
+    "iart-ai/kinetic-typography-skills (22 stars) - agent skills for beat-synced kinetic type",
+    "pablostanley/typexperiments (34 stars) - kinetic type engine on Pretext",
+    "bangtutorial/bang-motion (942 stars) - agent skill for kinetic typography/motion graphics",
+    "fonttools / fontmake (Python CLI) for building and instancing variable display fonts",
+    "Wakamai Fondue (wakamaifondue.com) for inspecting variable-font axes and OpenType features",
+    "Figma native variable-font axis controls for exploring flexing wordmarks"
+  ],
+  "notes": "All star counts verified via gh api repos/OWNER/NAME on 2026-11-01. Excluded bradley/Blotter (3082 stars, last push 2020) as stale. Poster-generator and brand-guideline searches yielded only low-star or off-topic repos."
+}

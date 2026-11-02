@@ -1,0 +1,48 @@
+{
+  "person": "Boris Cherny",
+  "github": "bcherny",
+  "verified_at": "2026-11-01",
+  "philosophy": "Boris Cherny builds terminal-first agentic tools (Claude Code) that keep the human in the loop: the agent proposes, permission prompts gate risky actions, and state like todos, diffs and tool calls stays visible so users can trust a probabilistic system and recover when it errs. His background in type-safe APIs (Programming TypeScript, json-schema-to-typescript) shows in a preference for explicit contracts, progressive disclosure, and composable primitives (hooks, skills, plugins, subagents) over hidden magic.",
+  "own_repos": [
+    {"full_name": "bcherny/json-schema-to-typescript", "url": "https://github.com/bcherny/json-schema-to-typescript", "stars": 3350, "description": "Compile JSON Schema to TypeScript type declarations", "license": "MIT", "pushed_at": "2026-09-07T16:38:05Z"},
+    {"full_name": "bcherny/undux", "url": "https://github.com/bcherny/undux", "stars": 1564, "description": "Dead simple state for React. Now with Hooks support.", "license": "MIT", "pushed_at": "2025-05-08T00:27:10Z"},
+    {"full_name": "bcherny/frontend-interview-questions", "url": "https://github.com/bcherny/frontend-interview-questions", "stars": 1144, "description": "Answers for Boris Cherny's Frontend Interview Questions blog post", "license": "none", "pushed_at": "2023-01-21T04:39:42Z"},
+    {"full_name": "bcherny/programming-typescript-answers", "url": "https://github.com/bcherny/programming-typescript-answers", "stars": 561, "description": "Official answers for exercises from O'Reilly's Programming TypeScript", "license": "none", "pushed_at": "2021-08-10T22:01:14Z"},
+    {"full_name": "bcherny/flow-to-typescript", "url": "https://github.com/bcherny/flow-to-typescript", "stars": 438, "description": "Convert Flow-annotated files to TypeScript", "license": "MIT", "pushed_at": "2022-12-06T19:59:19Z"},
+    {"full_name": "bcherny/draggable", "url": "https://github.com/bcherny/draggable", "stars": 204, "description": "High performance, fully cross browser, full featured drag and drop in a tiny (2k gzipped), dependency-free package", "license": "MIT", "pushed_at": "2022-12-08T10:47:06Z"}
+  ],
+  "repos": [
+    {"full_name": "anomalyco/opencode", "url": "https://github.com/anomalyco/opencode", "stars": 223744, "description": "The open source coding agent.", "why": "Most-starred open-source Claude Code alternative (formerly sst/opencode); full TUI source for permission prompts, plan/build modes, session UX.", "license": "MIT", "pushed_at": "2026-11-01T12:55:20Z"},
+    {"full_name": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": 186148, "description": "Public repository for Agent Skills", "why": "Official skill format built on progressive disclosure; includes discernment-nudge, a skill that prompts users to calibrate trust in AI output.", "license": "none", "pushed_at": "2026-10-28T19:20:39Z"},
+    {"full_name": "anthropics/claude-code", "url": "https://github.com/anthropics/claude-code", "stars": 154136, "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.", "why": "Boris's flagship; issues, changelog and examples show permission modes, hooks and error-state design decisions in public (source not open).", "license": "none", "pushed_at": "2026-10-31T01:01:35Z"},
+    {"full_name": "openai/codex", "url": "https://github.com/openai/codex", "stars": 132672, "description": "Lightweight coding agent that runs in your terminal", "why": "Direct competitor with open source; approval modes and sandbox levels show another take on agent trust (Rust/ratatui TUI).", "license": "Apache-2.0", "pushed_at": "2026-10-31T00:12:36Z"},
+    {"full_name": "google-gemini/gemini-cli", "url": "https://github.com/google-gemini/gemini-cli", "stars": 108649, "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.", "why": "Open-source Ink/React terminal agent built in the Claude Code style; readable source for tool-confirmation dialogs and themes.", "license": "Apache-2.0", "pushed_at": "2026-11-01T01:14:56Z"},
+    {"full_name": "hesreallyhim/awesome-claude-code", "url": "https://github.com/hesreallyhim/awesome-claude-code", "stars": 57020, "description": "A hand-picked collection of the finest of resources for Claude Code: skills, agents, status lines, tooling, plugins.", "why": "Curated index of the Claude Code ecosystem: status lines, hooks and workflows that extend its human-in-the-loop UX.", "license": "NOASSERTION", "pushed_at": "2026-11-01T12:08:15Z"},
+    {"full_name": "Aider-AI/aider", "url": "https://github.com/Aider-AI/aider", "stars": 49877, "description": "aider is AI pair programming in your terminal", "why": "Early terminal pair-programmer; git-commit-per-change is a trust and undo pattern worth studying.", "license": "Apache-2.0", "pushed_at": "2026-05-22T14:02:20Z"},
+    {"full_name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "stars": 45661, "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.", "why": "Reference plugins (hookify, security-guidance, explanatory-output-style, frontend-design) that show guardrail and transparency patterns in practice.", "license": "Apache-2.0", "pushed_at": "2026-11-01T07:28:23Z"},
+    {"full_name": "charmbracelet/bubbletea", "url": "https://github.com/charmbracelet/bubbletea", "stars": 45578, "description": "A powerful little TUI framework", "why": "Go Elm-architecture TUI framework behind Crush and many AI CLIs; Charm sets the visual-craft bar for terminals.", "license": "MIT", "pushed_at": "2026-10-28T10:18:30Z"},
+    {"full_name": "vadimdemedes/ink", "url": "https://github.com/vadimdemedes/ink", "stars": 40206, "description": "React for interactive command-line apps", "why": "React-for-terminal renderer used by Claude Code and gemini-cli; the base layer for its component UX.", "license": "MIT", "pushed_at": "2026-10-31T19:55:17Z"},
+    {"full_name": "jarrodwatts/claude-hud", "url": "https://github.com/jarrodwatts/claude-hud", "stars": 29072, "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress", "why": "Shows agent state in a compact status HUD (context, tools, subagents), a direct pattern for making AI work legible.", "license": "MIT", "pushed_at": "2026-11-01T03:12:30Z"},
+    {"full_name": "charmbracelet/crush", "url": "https://github.com/charmbracelet/crush", "stars": 28909, "description": "Glamourous agentic coding for all", "why": "Design-forward agentic coding TUI from Charm; strong reference for visual hierarchy and permission UI in terminals.", "license": "NOASSERTION (FSL-style)", "pushed_at": "2026-11-01T09:35:16Z"},
+    {"full_name": "ratatui/ratatui", "url": "https://github.com/ratatui/ratatui", "stars": 23137, "description": "A Rust crate for cooking up terminal user interfaces (TUIs)", "why": "Rust TUI framework behind the Codex CLI; widget library for diffs, lists and modal prompts.", "license": "MIT", "pushed_at": "2026-11-01T11:45:01Z"},
+    {"full_name": "humanlayer/humanlayer", "url": "https://github.com/humanlayer/humanlayer", "stars": 12739, "description": "The best way to get AI coding agents to solve hard problems in complex codebases.", "why": "Started as human-approval-for-agent-tool-calls SDK; now a Claude Code orchestration UI built around human-in-the-loop review.", "license": "Apache-2.0", "pushed_at": "2026-10-31T16:19:01Z"},
+    {"full_name": "HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems", "url": "https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems", "stars": 242, "description": "[ACL 2026] LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey", "why": "Research survey and reading list on human-agent feedback, control and trust: the theory behind permission UX.", "license": "none", "pushed_at": "2026-07-23T05:33:51Z"}
+  ],
+  "excluded_notes": [
+    "microsoft/HAXPlaybook: 62 stars, archived (2023); HAX guidelines live off-GitHub",
+    "Google PAIR Guidebook: not a starred GitHub repo (PAIR-code/pair-code.github.io = 23 stars)",
+    "Shape of AI (shapeof.ai): no GitHub repo found",
+    "Textualize/textual (37560) and OpenHands/OpenHands (92415): verified but cut to keep list at 15"
+  ],
+  "top_clone_picks": ["anomalyco/opencode", "google-gemini/gemini-cli", "vadimdemedes/ink", "jarrodwatts/claude-hud"],
+  "skills_or_tools": [
+    "anthropics/skills: discernment-nudge (prompts user to sanity-check AI output; trust calibration)",
+    "anthropics/skills: skill-creator (progressive-disclosure skill authoring)",
+    "anthropics/claude-plugins-official: hookify (turn unwanted agent behaviors into guardrail hooks)",
+    "anthropics/claude-plugins-official: security-guidance (pattern warnings on edits plus Stop-time review; error-state surfacing)",
+    "anthropics/claude-plugins-official: explanatory-output-style / learning-output-style (agent explains its choices; transparency)",
+    "anthropics/claude-plugins-official: frontend-design",
+    "Claude Code built-ins: permission modes (default/acceptEdits/plan/bypass), PreToolUse/PostToolUse hooks, plan mode, todo list, checkpoints/rewind",
+    "jarrodwatts/claude-hud plugin (status-line agent state visibility)"
+  ]
+}

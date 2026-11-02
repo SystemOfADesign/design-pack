@@ -1,0 +1,11 @@
+# shallow study clones (1.8 GB); re-create with research/clone-list.txt
+repos/
+node_modules/
+shots/
+*.tsbuildinfo
+*.log
+.DS_Store
+.env
+.env.*
+# frames extracted from a third-party Instagram reel; kept local only
+watch-report/frames/

@@ -1,0 +1,760 @@
+{
+  "generated_at": "2026-11-01",
+  "source": "Instagram reel 'The Modern Designer's Knowledge Map' by Rajat Patel (@designwithrajatpatel)",
+  "note": "Stars verified via gh api repos/OWNER/NAME on generated_at; all repos non-archived.",
+  "concepts": [
+    {
+      "concept": "Semantic tokens",
+      "gist": "Name design decisions by intent (color.bg.danger) in a primitive->semantic->component token layer, exported to every platform from one source.",
+      "repos": [
+        {
+          "full_name": "style-dictionary/style-dictionary",
+          "url": "https://github.com/style-dictionary/style-dictionary",
+          "stars": 4875,
+          "description": "A build system for creating cross-platform styles.",
+          "why": "De facto token build system; v4+ supports DTCG format, transforms tokens to CSS/iOS/Android.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-10-28T15:23:20Z"
+        },
+        {
+          "full_name": "design-tokens/community-group",
+          "url": "https://github.com/design-tokens/community-group",
+          "stars": 2160,
+          "description": "This is the official DTCG repository for the design tokens site and specification.",
+          "why": "W3C DTCG spec repo: the canonical token JSON format ($value/$type, aliases).",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-28T09:29:26Z"
+        },
+        {
+          "full_name": "tokens-studio/figma-plugin",
+          "url": "https://github.com/tokens-studio/figma-plugin",
+          "stars": 1629,
+          "description": "Official repository of the plugin 'Tokens Studio for Figma' (Figma Tokens)",
+          "why": "Most-used Figma token authoring plugin; semantic sets/themes synced to git.",
+          "license": "MIT",
+          "pushed_at": "2026-10-30T11:29:07Z"
+        },
+        {
+          "full_name": "sturobson/Awesome-Design-Tokens",
+          "url": "https://github.com/sturobson/Awesome-Design-Tokens",
+          "stars": 1298,
+          "description": "A list of resources on all things to do with Design Tokens",
+          "why": "Curated reading + tooling list covering token naming and semantic layering.",
+          "license": "Unlicense",
+          "pushed_at": "2026-02-20T13:54:02Z"
+        }
+      ]
+    },
+    {
+      "concept": "Optical alignment",
+      "gist": "Center things by perceived visual mass, not bounding boxes (play icons, text cap-height, rounded shapes).",
+      "repos": [
+        {
+          "full_name": "seek-oss/capsize",
+          "url": "https://github.com/seek-oss/capsize",
+          "stars": 1735,
+          "description": "Flipping how we define typography in CSS.",
+          "why": "Trims font leading so text aligns optically to cap-height/baseline; most-starred practical optical-alignment tool.",
+          "license": "MIT",
+          "pushed_at": "2026-10-15T02:05:36Z"
+        },
+        {
+          "full_name": "jantimon/text-box-trim-examples",
+          "url": "https://github.com/jantimon/text-box-trim-examples",
+          "stars": 403,
+          "description": "text-box-trim examples and playground (previously known as leading-trim)",
+          "why": "Playground for CSS text-box-trim, the native way to optically align text in boxes.",
+          "license": "none",
+          "pushed_at": "2026-01-08T09:03:27Z"
+        },
+        {
+          "full_name": "ledgelabs/optical-center",
+          "url": "https://github.com/ledgelabs/optical-center",
+          "stars": 0,
+          "description": "Build-time optical centering for SVG, Lucide, and Phosphor icons in Next.js",
+          "why": "Exact match (build-time optical centering of Lucide/Phosphor SVG icons) but ~0 stars; study, not depend on.",
+          "license": "MIT",
+          "pushed_at": "2026-07-10T21:45:53Z"
+        }
+      ]
+    },
+    {
+      "concept": "Data ramps",
+      "gist": "Perceptually uniform sequential/diverging/categorical color scales so data viz encodes value honestly and accessibly.",
+      "repos": [
+        {
+          "full_name": "gka/chroma.js",
+          "url": "https://github.com/gka/chroma.js",
+          "stars": 10608,
+          "description": "JavaScript library for all kinds of color manipulations",
+          "why": "Color scales, bezier interpolation and lightness correction for building data ramps.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-24T22:55:15Z"
+        },
+        {
+          "full_name": "adobe/leonardo",
+          "url": "https://github.com/adobe/leonardo",
+          "stars": 2162,
+          "description": "Generate colors based on a desired contrast ratio",
+          "why": "Generates color ramps targeted by contrast ratio; good for accessible sequential scales.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-07-08T22:10:56Z"
+        },
+        {
+          "full_name": "axismaps/colorbrewer",
+          "url": "https://github.com/axismaps/colorbrewer",
+          "stars": 1109,
+          "description": null,
+          "why": "Source of ColorBrewer, the classic tested cartographic/data-viz palettes.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-02-25T20:14:17Z"
+        },
+        {
+          "full_name": "d3/d3-scale-chromatic",
+          "url": "https://github.com/d3/d3-scale-chromatic",
+          "stars": 817,
+          "description": "Sequential, diverging and categorical color scales.",
+          "why": "Reference implementation of viridis/turbo/ColorBrewer interpolators used across d3 viz.",
+          "license": "NOASSERTION",
+          "pushed_at": "2024-06-16T22:57:03Z"
+        }
+      ],
+      "note": "TRANSCRIPTION ERROR: the video says 'Dieter Rams' (person), not 'Data Ramps'. Kept as a bonus concept (colour scales for data viz); see research/dieter-rams.json for the real item."
+    },
+    {
+      "concept": "Component API design",
+      "gist": "Composable APIs (compound components, slots, asChild, controlled/uncontrolled) that scale without prop explosion.",
+      "repos": [
+        {
+          "full_name": "radix-ui/primitives",
+          "url": "https://github.com/radix-ui/primitives",
+          "stars": 19461,
+          "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+          "why": "Canonical compound-component + asChild API pattern most libs copy.",
+          "license": "MIT",
+          "pushed_at": "2026-10-14T21:52:47Z"
+        },
+        {
+          "full_name": "mui/base-ui",
+          "url": "https://github.com/mui/base-ui",
+          "stars": 11271,
+          "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
+          "why": "Next-gen headless lib by Radix/MUI/Floating UI authors; refined composition (render prop) API.",
+          "license": "MIT",
+          "pushed_at": "2026-10-31T00:33:36Z"
+        },
+        {
+          "full_name": "adobe/react-spectrum",
+          "url": "https://github.com/adobe/react-spectrum",
+          "stars": 16005,
+          "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+          "why": "React Aria hooks + components: deepest public thinking on accessible, layered component APIs.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-10-29T23:51:22Z"
+        },
+        {
+          "full_name": "kentcdodds/advanced-react-patterns",
+          "url": "https://github.com/kentcdodds/advanced-react-patterns",
+          "stars": 374,
+          "description": "Learn how to build simple and flexible React Components and Hooks using modern patterns",
+          "why": "Workshop teaching compound components, prop getters, state reducer, control props.",
+          "license": "NOASSERTION",
+          "pushed_at": "2024-09-30T16:53:23Z"
+        }
+      ]
+    },
+    {
+      "concept": "Perceived performance",
+      "gist": "Make apps feel fast via skeletons, optimistic updates and speculative prefetch, independent of real latency.",
+      "repos": [
+        {
+          "full_name": "TanStack/query",
+          "url": "https://github.com/TanStack/query",
+          "stars": 50510,
+          "description": "\ud83e\udd16 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+          "why": "Optimistic updates, stale-while-revalidate and prefetch primitives for perceived speed.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T14:20:04Z"
+        },
+        {
+          "full_name": "GoogleChromeLabs/quicklink",
+          "url": "https://github.com/GoogleChromeLabs/quicklink",
+          "stars": 11305,
+          "description": "\u26a1\ufe0fFaster subsequent page-loads by prefetching in-viewport links during idle time",
+          "why": "Prefetches in-viewport links during idle time (speculative loading).",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-11-01T01:43:56Z"
+        },
+        {
+          "full_name": "danilowoz/react-content-loader",
+          "url": "https://github.com/danilowoz/react-content-loader",
+          "stars": 13999,
+          "description": "\u26aa SVG-Powered component to easily create skeleton loadings.",
+          "why": "SVG skeleton screens matching real layout.",
+          "license": "MIT",
+          "pushed_at": "2026-01-22T16:36:19Z"
+        },
+        {
+          "full_name": "instantpage/instant.page",
+          "url": "https://github.com/instantpage/instant.page",
+          "stars": 6221,
+          "description": "Make your site\u2019s pages instant in 1 minute and improve your conversion rate by 1%",
+          "why": "Hover/touchstart preloading; tiny drop-in speculative navigation.",
+          "license": "MIT",
+          "pushed_at": "2026-09-29T17:34:01Z"
+        }
+      ]
+    },
+    {
+      "concept": "Designing for non-deterministic systems",
+      "gist": "UX for outputs that vary per run: steerability, human-in-the-loop, regenerate/branch, shared agent state. No mature dedicated pattern-library repo exists; best code references below.",
+      "repos": [
+        {
+          "full_name": "CopilotKit/CopilotKit",
+          "url": "https://github.com/CopilotKit/CopilotKit",
+          "stars": 38448,
+          "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+          "why": "Agent frontend stack with human-in-the-loop, shared state and generative UI patterns.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T12:11:39Z"
+        },
+        {
+          "full_name": "ag-ui-protocol/ag-ui",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "stars": 16960,
+          "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+          "why": "Agent-User Interaction protocol: event model for streaming, tool calls, interrupts between agent and UI.",
+          "license": "MIT",
+          "pushed_at": "2026-10-31T23:53:45Z"
+        },
+        {
+          "full_name": "assistant-ui/assistant-ui",
+          "url": "https://github.com/assistant-ui/assistant-ui",
+          "stars": 12885,
+          "description": "Typescript/React Library for AI Chat \ud83d\udcac\ud83d\ude80",
+          "why": "Chat primitives with branching, edit/regenerate, tool-call UI for variable outputs.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T14:28:50Z"
+        },
+        {
+          "full_name": "Halaska-Studio/ui",
+          "url": "https://github.com/Halaska-Studio/ui",
+          "stars": 42,
+          "description": "Halaska UI: a single-file React UI kit for AI products, built on shadcn/ui. 40 AI UX patterns and 90 components for agents, chat and generative UI.",
+          "why": "Low stars but on-topic: React kit of ~40 AI UX patterns built on shadcn.",
+          "license": "MIT",
+          "pushed_at": "2026-10-01T11:55:05Z"
+        }
+      ]
+    },
+    {
+      "concept": "Progressive disclosure",
+      "gist": "Show only what's needed now, reveal depth on demand (disclosure, accordions, staged forms, skill files loaded lazily). No dedicated repo; implemented as primitives.",
+      "repos": [
+        {
+          "full_name": "tailwindlabs/headlessui",
+          "url": "https://github.com/tailwindlabs/headlessui",
+          "stars": 28805,
+          "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+          "why": "Disclosure/Popover/Dialog primitives: the building blocks of progressive disclosure.",
+          "license": "MIT",
+          "pushed_at": "2026-04-13T16:12:31Z"
+        },
+        {
+          "full_name": "radix-ui/primitives",
+          "url": "https://github.com/radix-ui/primitives",
+          "stars": 19461,
+          "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+          "why": "Collapsible, Accordion, HoverCard, Popover with accessible reveal semantics.",
+          "license": "MIT",
+          "pushed_at": "2026-10-14T21:52:47Z"
+        },
+        {
+          "full_name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "stars": 186150,
+          "description": "Public repository for Agent Skills",
+          "why": "Agent Skills are built on progressive disclosure (metadata -> SKILL.md -> references); useful mental model for AI context too.",
+          "license": "none",
+          "pushed_at": "2026-10-28T19:20:39Z"
+        }
+      ]
+    },
+    {
+      "concept": "OKLCH",
+      "gist": "Perceptually uniform color space (lightness, chroma, hue) for predictable palettes, theming and P3 wide gamut.",
+      "repos": [
+        {
+          "full_name": "evilmartians/oklch-picker",
+          "url": "https://github.com/evilmartians/oklch-picker",
+          "stars": 2018,
+          "description": "Color Picker for LCH",
+          "why": "Source of oklch.com picker; shows gamut boundaries and P3 fallback.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-05T17:07:28Z"
+        },
+        {
+          "full_name": "color-js/color.js",
+          "url": "https://github.com/color-js/color.js",
+          "stars": 2314,
+          "description": "Color conversion & manipulation library by the editors of the CSS Color specifications",
+          "why": "By CSS Color spec editors; full OKLCH/OKLab conversion, gamut mapping.",
+          "license": "MIT",
+          "pushed_at": "2026-10-26T04:25:52Z"
+        },
+        {
+          "full_name": "Evercoder/culori",
+          "url": "https://github.com/Evercoder/culori",
+          "stars": 1246,
+          "description": "A comprehensive color library for JavaScript.",
+          "why": "Comprehensive tree-shakable color lib with OKLCH, interpolation, difference metrics.",
+          "license": "MIT",
+          "pushed_at": "2026-10-15T08:04:55Z"
+        },
+        {
+          "full_name": "argyleink/open-props",
+          "url": "https://github.com/argyleink/open-props",
+          "stars": 5560,
+          "description": "CSS custom properties to help accelerate adaptive and consistent design.",
+          "why": "CSS custom-property system with OKLCH-based color/palette props.",
+          "license": "MIT",
+          "pushed_at": "2026-10-11T23:53:54Z"
+        }
+      ]
+    },
+    {
+      "concept": "Generative UI",
+      "gist": "LLM chooses/streams real UI components (from a catalog or spec) instead of only text.",
+      "repos": [
+        {
+          "full_name": "vercel-labs/json-render",
+          "url": "https://github.com/vercel-labs/json-render",
+          "stars": 18870,
+          "description": "The Generative UI framework",
+          "why": "Generative UI framework: model emits JSON constrained to your component catalog.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-10-30T17:41:42Z"
+        },
+        {
+          "full_name": "CopilotKit/CopilotKit",
+          "url": "https://github.com/CopilotKit/CopilotKit",
+          "stars": 38448,
+          "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+          "why": "Frontend stack for agents with generative UI across React/Angular/mobile.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T12:11:39Z"
+        },
+        {
+          "full_name": "a2ui-project/a2ui",
+          "url": "https://github.com/a2ui-project/a2ui",
+          "stars": 16923,
+          "description": null,
+          "why": "A2UI (originated at Google): declarative agent-to-UI spec rendered natively by clients.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-10-31T00:21:25Z"
+        },
+        {
+          "full_name": "thesysdev/openui",
+          "url": "https://github.com/thesysdev/openui",
+          "stars": 14598,
+          "description": "The Open Standard for Generative UI",
+          "why": "Thesys open standard + SDK for generative UI (successor of Crayon/C1 tooling).",
+          "license": "MIT",
+          "pushed_at": "2026-10-31T12:56:08Z"
+        }
+      ]
+    },
+    {
+      "concept": "Model latency as a design constraint",
+      "gist": "Design around seconds-long, streaming responses: token streaming, shimmer/thinking states, partial rendering, cancel/queue.",
+      "repos": [
+        {
+          "full_name": "vercel/ai",
+          "url": "https://github.com/vercel/ai",
+          "stars": 27671,
+          "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+          "why": "AI SDK: streamText/useChat/streamObject give partial-result streaming to the UI.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-11-01T13:07:57Z"
+        },
+        {
+          "full_name": "vercel/streamdown",
+          "url": "https://github.com/vercel/streamdown",
+          "stars": 5742,
+          "description": "A drop-in replacement for react-markdown, designed for AI-powered streaming.",
+          "why": "Markdown renderer that handles incomplete, streaming LLM output without jank.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-31T00:42:15Z"
+        },
+        {
+          "full_name": "vercel/ai-elements",
+          "url": "https://github.com/vercel/ai-elements",
+          "stars": 2503,
+          "description": "AI Elements is a component library and custom registry built on top of shadcn/ui to help you build AI-native applications faster.",
+          "why": "shadcn registry with Shimmer, Reasoning, Queue, Task, PromptInput (stop) components for slow models.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-14T17:04:55Z"
+        },
+        {
+          "full_name": "Jakubantalik/thinking-orbs",
+          "url": "https://github.com/Jakubantalik/thinking-orbs",
+          "stars": 3905,
+          "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
+          "why": "Purpose-built 'thinking' loading indicators for AI/agent UIs.",
+          "license": "MIT",
+          "pushed_at": "2026-08-16T08:19:07Z"
+        }
+      ]
+    },
+    {
+      "concept": "Design engineering",
+      "gist": "Hybrid craft of designing in code: interaction detail, motion, polish, guidelines.",
+      "repos": [
+        {
+          "full_name": "vercel-labs/web-interface-guidelines",
+          "url": "https://github.com/vercel-labs/web-interface-guidelines",
+          "stars": 1083,
+          "description": "Guidelines for building interfaces on the Web.",
+          "why": "Vercel's interface guidelines (also packaged as agent skill); checklist of design-eng detail.",
+          "license": "MIT",
+          "pushed_at": "2026-10-05T20:49:17Z"
+        },
+        {
+          "full_name": "raunofreiberg/interfaces",
+          "url": "https://github.com/raunofreiberg/interfaces",
+          "stars": 1955,
+          "description": "A non-exhaustive list of details that make a good web interface.",
+          "why": "Rauno Freiberg's original list of details that make a good web interface.",
+          "license": "none",
+          "pushed_at": "2023-09-07T17:56:26Z"
+        },
+        {
+          "full_name": "raphaelsalaja/userinterface-wiki",
+          "url": "https://github.com/raphaelsalaja/userinterface-wiki",
+          "stars": 936,
+          "description": "A Living Manual for Better Interfaces",
+          "why": "Living manual of interface craft from a design engineer.",
+          "license": "MIT",
+          "pushed_at": "2026-07-29T11:38:26Z"
+        },
+        {
+          "full_name": "remvze/desengs",
+          "url": "https://github.com/remvze/desengs",
+          "stars": 276,
+          "description": "Resources for design engineers.",
+          "why": "Closest thing to an awesome-design-engineering list (low stars, active).",
+          "license": "MIT",
+          "pushed_at": "2026-10-30T19:03:46Z"
+        }
+      ]
+    },
+    {
+      "concept": "Jobs To Be Done",
+      "gist": "Frame product work around the progress a user is trying to make in a circumstance, not features or personas. Weak GitHub presence.",
+      "repos": [
+        {
+          "full_name": "wondelai/skills",
+          "url": "https://github.com/wondelai/skills",
+          "stars": 2551,
+          "description": "Wondel.ai Agent Skills \u2014 Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
+          "why": "Agent skills repo with a jobs-to-be-done skill (plus lean-ux, ux-heuristics, refactoring-ui).",
+          "license": "MIT",
+          "pushed_at": "2026-09-10T21:48:01Z"
+        },
+        {
+          "full_name": "brianrhea/awesome-jtbd",
+          "url": "https://github.com/brianrhea/awesome-jtbd",
+          "stars": 110,
+          "description": "All things Jobs-to-Be-Done. Inspired by 'awesome-' repos. PRs welcomed. Contribute to the awesome.",
+          "why": "Only notable JTBD awesome list; stale (last push 2018), use as reading list only.",
+          "license": "none",
+          "pushed_at": "2018-05-14T16:43:55Z"
+        }
+      ]
+    },
+    {
+      "concept": "Motion choreography",
+      "gist": "Sequence multiple elements' motion (stagger, orchestration, shared layout, timing) so transitions read as one story.",
+      "repos": [
+        {
+          "full_name": "motiondivision/motion",
+          "url": "https://github.com/motiondivision/motion",
+          "stars": 34762,
+          "description": "A modern animation library for React and JavaScript",
+          "why": "Motion (ex Framer Motion): variants, staggerChildren, layout/shared transitions = orchestration.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T09:52:03Z"
+        },
+        {
+          "full_name": "juliangarnier/anime",
+          "url": "https://github.com/juliangarnier/anime",
+          "stars": 74156,
+          "description": "JavaScript animation engine",
+          "why": "Anime.js v4 timelines + stagger utilities for sequenced choreography.",
+          "license": "MIT",
+          "pushed_at": "2026-08-21T21:29:50Z"
+        },
+        {
+          "full_name": "formkit/auto-animate",
+          "url": "https://github.com/formkit/auto-animate",
+          "stars": 13953,
+          "description": "A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.",
+          "why": "Zero-config list/layout transitions; cheapest choreography win.",
+          "license": "MIT",
+          "pushed_at": "2026-07-10T16:08:00Z"
+        },
+        {
+          "full_name": "LottieFiles/motion-design-skill",
+          "url": "https://github.com/LottieFiles/motion-design-skill",
+          "stars": 2672,
+          "description": "Universal motion design principles for AI agents \u2014 timing, easing, choreography, and Disney animation principles adapted for UI",
+          "why": "Agent skill encoding timing, easing, choreography and Disney principles.",
+          "license": "MIT",
+          "pushed_at": "2026-05-18T11:30:13Z"
+        }
+      ]
+    },
+    {
+      "concept": "Trust and error states of probabilistic systems",
+      "gist": "Communicate uncertainty, sources, reasoning and recoverable failure so users calibrate trust. Thin on GitHub; component kits are best refs.",
+      "repos": [
+        {
+          "full_name": "vercel/ai-elements",
+          "url": "https://github.com/vercel/ai-elements",
+          "stars": 2503,
+          "description": "AI Elements is a component library and custom registry built on top of shadcn/ui to help you build AI-native applications faster.",
+          "why": "Sources, InlineCitation, ChainOfThought, Reasoning, Confirmation components for trust/attribution.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-14T17:04:55Z"
+        },
+        {
+          "full_name": "assistant-ui/assistant-ui",
+          "url": "https://github.com/assistant-ui/assistant-ui",
+          "stars": 12885,
+          "description": "Typescript/React Library for AI Chat \ud83d\udcac\ud83d\ude80",
+          "why": "Error/retry, regenerate, branch, tool-approval UI primitives.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T14:28:50Z"
+        },
+        {
+          "full_name": "dgesteves/signoff-ui",
+          "url": "https://github.com/dgesteves/signoff-ui",
+          "stars": 44,
+          "description": "Review what your agent changed and approve what it may do: React components for multi-file diff review and tool approvals that return a result your agent acts on, for AI SDK 6 & 7, AG-UI and ACP agents, inside assistant-ui, AI Elements or your own chat.",
+          "why": "Low stars but on-topic: review + approve agent changes UI components.",
+          "license": "MIT",
+          "pushed_at": "2026-10-30T19:26:46Z"
+        },
+        {
+          "full_name": "sinhaankur/Probabilistic-UI",
+          "url": "https://github.com/sinhaankur/Probabilistic-UI",
+          "stars": 0,
+          "description": "Design vocabulary for AI surfaces that are honest about uncertainty. Calibrated confidence, evidence anchors, the cross-hatch primitive \u2014 shared across the agentic-UX trilogy.",
+          "why": "~0 stars but exact topic: vocabulary for calibrated-confidence AI surfaces; study only.",
+          "license": "none",
+          "pushed_at": "2026-05-15T06:24:33Z"
+        }
+      ]
+    },
+    {
+      "concept": "Design debt",
+      "gist": "Accumulated inconsistency (hardcoded values, detached components, one-offs) between design system and product; detect and pay down.",
+      "repos": [
+        {
+          "full_name": "destefanis/design-lint",
+          "url": "https://github.com/destefanis/design-lint",
+          "stars": 521,
+          "description": "A design linting plugin for Figma.",
+          "why": "Figma plugin that flags missing styles/tokens in design files (last push 2024).",
+          "license": "MIT",
+          "pushed_at": "2024-01-12T10:26:16Z"
+        },
+        {
+          "full_name": "AndyOGo/stylelint-declaration-strict-value",
+          "url": "https://github.com/AndyOGo/stylelint-declaration-strict-value",
+          "stars": 145,
+          "description": "Specify properties for which a variable, function, keyword or value must be used.",
+          "why": "Stylelint rule enforcing tokens/variables instead of hardcoded values in code.",
+          "license": "MIT",
+          "pushed_at": "2026-08-24T18:55:56Z"
+        },
+        {
+          "full_name": "moroshko/react-scanner",
+          "url": "https://github.com/moroshko/react-scanner",
+          "stars": 661,
+          "description": "Extract React components and props usage from code.",
+          "why": "Audits component + prop usage across a codebase to measure design-system adoption.",
+          "license": "MIT",
+          "pushed_at": "2026-04-20T10:35:09Z"
+        },
+        {
+          "full_name": "projectwallace/wallace-cli",
+          "url": "https://github.com/projectwallace/wallace-cli",
+          "stars": 645,
+          "description": "Pretty CSS analytics on the CLI",
+          "why": "CSS analytics (unique colors, font sizes, specificity) to quantify style sprawl.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T14:03:34Z"
+        }
+      ]
+    },
+    {
+      "concept": "Claude Code design skills",
+      "gist": "Agent skills that give Claude design taste, guidelines and review loops.",
+      "repos": [
+        {
+          "full_name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "stars": 186150,
+          "description": "Public repository for Agent Skills",
+          "why": "Official skills incl. frontend-design, canvas-design, theme-factory, brand-guidelines.",
+          "license": "none",
+          "pushed_at": "2026-10-28T19:20:39Z"
+        },
+        {
+          "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "stars": 143665,
+          "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+          "why": "Largest design-intelligence skill: styles, palettes, font pairings, UX rules across stacks.",
+          "license": "MIT",
+          "pushed_at": "2026-11-01T07:04:29Z"
+        },
+        {
+          "full_name": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "stars": 107476,
+          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+          "why": "Anti-slop art direction skill with reference library + browser check loop.",
+          "license": "MIT",
+          "pushed_at": "2026-10-31T07:59:58Z"
+        },
+        {
+          "full_name": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "stars": 98944,
+          "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+          "why": "Design vocabulary commands (polish, bolder, critique, audit) for coding agents.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-11-01T14:34:31Z"
+        }
+      ]
+    }
+  ],
+  "claude_code_skills": [
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 186150,
+      "what": "Official Agent Skills; frontend-design, canvas-design, theme-factory, brand-guidelines, skill-creator."
+    },
+    {
+      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 143665,
+      "what": "Design-intelligence skill: style/palette/typography DBs + UX rules."
+    },
+    {
+      "full_name": "VoltAgent/awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "stars": 125021,
+      "what": "DESIGN.md files reverse-engineered from brand design systems for agents."
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 107476,
+      "what": "Art-direction / anti-slop frontend skill."
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "stars": 98944,
+      "what": "Design vocabulary + critique/audit commands."
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "stars": 78487,
+      "what": "Curated list of Claude skills."
+    },
+    {
+      "full_name": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "stars": 57020,
+      "what": "Curated Claude Code resources: skills, hooks, commands, plugins."
+    },
+    {
+      "full_name": "emilkowalski/skills",
+      "url": "https://github.com/emilkowalski/skills",
+      "stars": 52621,
+      "what": "Emil Kowalski design-eng skills: animate, review-animations, apple-design, emil-design-eng, break-ui."
+    },
+    {
+      "full_name": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "stars": 36697,
+      "what": "1000+ agent skills index incl. design."
+    },
+    {
+      "full_name": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "stars": 33334,
+      "what": "Vercel skills: web-design-guidelines, composition-patterns, react-view-transitions, react-best-practices."
+    },
+    {
+      "full_name": "travisvn/awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "stars": 15660,
+      "what": "Curated Claude skills list."
+    },
+    {
+      "full_name": "ibelick/ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "stars": 10440,
+      "what": "Design-engineer skills: baseline-ui, improve-ui, fixing-accessibility, fixing-motion-performance, create-design-md."
+    },
+    {
+      "full_name": "Jakubantalik/transitions.dev",
+      "url": "https://github.com/Jakubantalik/transitions.dev",
+      "stars": 6004,
+      "what": "43+ crafted transitions packaged as a motion skill/agent."
+    },
+    {
+      "full_name": "Dammyjay93/interface-design",
+      "url": "https://github.com/Dammyjay93/interface-design",
+      "stars": 5893,
+      "what": "Design-engineering plugin: craft, memory, enforcement of consistent UI."
+    },
+    {
+      "full_name": "plugin87/ux-ui-agent-skills",
+      "url": "https://github.com/plugin87/ux-ui-agent-skills",
+      "stars": 3067,
+      "what": "Design-architect skills: DTCG tokens, 52 components, WCAG 2.2."
+    },
+    {
+      "full_name": "LottieFiles/motion-design-skill",
+      "url": "https://github.com/LottieFiles/motion-design-skill",
+      "stars": 2672,
+      "what": "Motion principles skill: timing, easing, choreography."
+    },
+    {
+      "full_name": "wondelai/skills",
+      "url": "https://github.com/wondelai/skills",
+      "stars": 2551,
+      "what": "Book-derived frameworks incl. jobs-to-be-done, refactoring-ui, ux-heuristics, microinteractions."
+    }
+  ],
+  "top_clone_picks": [
+    "anthropics/skills",
+    "vercel/ai-elements",
+    "style-dictionary/style-dictionary",
+    "radix-ui/primitives",
+    "vercel-labs/json-render",
+    "motiondivision/motion",
+    "evilmartians/oklch-picker",
+    "emilkowalski/skills",
+    "nextlevelbuilder/ui-ux-pro-max-skill",
+    "vercel-labs/web-interface-guidelines"
+  ]
+}

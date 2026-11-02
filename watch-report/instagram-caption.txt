@@ -1,0 +1,26 @@
+Video by designwithrajatpatel|Rajat Patel | Founder | Product Designer | Teacher|78359299618|43.86600112915039|I had fun putting this together because the modern designer’s knowledge map is so much bigger than just “good visuals.”
+
+Design is changing fast. And if you’re still thinking of design as only layouts, typography, colours, and aesthetics, you’re missing a huge part of where the industry is heading.
+
+Today’s designers need to understand semantic tokens, perceived performance, non-deterministic systems, progressive disclosure, OKLCH, model latency, design engineering, Jobs To Be Done, motion choreography, probabilistic systems, and design debt.
+
+And that doesn’t mean you need to become an engineer overnight.
+It means understanding how your design decisions behave inside real products, real systems, and increasingly AI-powered experiences.
+
+The best designers have always looked beyond the canvas.
+From Susan Kare and her foundational approach to digital interface design, to Paula Scher and her work in identity and visual systems, to the designers building products alongside engineers and AI today—the common thread is curiosity.
+
+The role of a designer is expanding.
+You need to understand not just what something looks like, but why it works, how it behaves, what happens when it scales, and how people experience it over time.
+That’s why I think the future belongs to designers who can connect visual design + interaction design + systems thinking + technology + human behaviour.
+You don’t need to master everything at once.
+
+But you do need to keep learning.
+Because the tools will change.
+The workflows will change.
+The technology will change.
+
+And the designers who stay curious will stay ahead.
+Save this as your modern designer’s knowledge map—and use it as a starting point for what you want to learn next.
+
+modern designer, design knowledge map, design systems, UI UX design, product design, design engineering, AI for designers, semantic tokens, OKLCH, motion design, interaction design, design thinking, systems thinking, Jobs To Be Done, design career, future of design, digital product design, UX design, visual design, AI design tools

@@ -1,0 +1,145 @@
+{
+  "person": "Susan Kare",
+  "philosophy": "Kare designed the original Macintosh icons and bitmap fonts (Chicago, Geneva, Monaco) on a strict pixel grid, often 32x32 in 1-bit black and white, treating each pixel as a deliberate decision. Her icons rely on instantly readable real-world metaphors (trash can, watch, Happy Mac) so meaning survives extreme constraint. The result is friendly, human, legible design where clarity beats ornament.",
+  "repos": [
+    {
+      "full_name": "piskelapp/piskel",
+      "url": "https://github.com/piskelapp/piskel",
+      "stars": 12937,
+      "description": "A simple web-based tool for Spriting and Pixel art.",
+      "why": "Browser grid editor for drawing icons pixel-by-pixel the way Kare did on graph paper and in the Mac icon editor.",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-27T23:23:00Z"
+    },
+    {
+      "full_name": "Orama-Interactive/Pixelorama",
+      "url": "https://github.com/Orama-Interactive/Pixelorama",
+      "stars": 10913,
+      "description": "Open-source pixel art multitool for sprites, tiles, animations (Windows, Linux, macOS, Web).",
+      "why": "Full pixel-art toolkit (palettes limited to 1-bit, grid, symmetry) for producing tiny constrained icon metaphors.",
+      "license": "MIT",
+      "pushed_at": "2026-10-27T21:14:05Z"
+    },
+    {
+      "full_name": "felixrieseberg/macintosh.js",
+      "url": "https://github.com/felixrieseberg/macintosh.js",
+      "stars": 8512,
+      "description": "A virtual Apple Macintosh with System 8, running in Electron.",
+      "why": "Runnable classic Mac OS to study Kare-lineage icons, Chicago menus and desktop metaphors in their native context.",
+      "license": "NOASSERTION (no license file)",
+      "pushed_at": "2026-05-05T16:37:17Z"
+    },
+    {
+      "full_name": "sakofchit/system.css",
+      "url": "https://github.com/sakofchit/system.css",
+      "stars": 3928,
+      "description": "A design system for building retro Apple interfaces",
+      "why": "CSS design system recreating System 6/7 windows, buttons and Chicago-style type, i.e. Kare's 1-bit UI vocabulary for the web.",
+      "license": "MIT",
+      "pushed_at": "2023-11-26T15:31:56Z"
+    },
+    {
+      "full_name": "the-moonwitch/Cozette",
+      "url": "https://github.com/the-moonwitch/Cozette",
+      "stars": 3866,
+      "description": "A bitmap programming font optimized for coziness",
+      "why": "Modern bitmap font that proves legibility on a strict pixel grid, the same discipline behind Chicago/Geneva/Monaco.",
+      "license": "MIT",
+      "pushed_at": "2026-08-14T16:28:24Z"
+    },
+    {
+      "full_name": "rektdeckard/departure-mono",
+      "url": "https://github.com/rektdeckard/departure-mono",
+      "stars": 3625,
+      "description": "A monospaced pixel font with a lo-fi, techy vibe",
+      "why": "Pixel-grid typeface usable as a web font today, applying Kare-style bitmap type to contemporary UI.",
+      "license": "MIT",
+      "pushed_at": "2026-09-13T04:04:18Z"
+    },
+    {
+      "full_name": "mihaip/infinite-mac",
+      "url": "https://github.com/mihaip/infinite-mac",
+      "stars": 1653,
+      "description": "A classic Mac loaded with everything you'd want",
+      "why": "In-browser System 1 through Mac OS 9 emulation; the best reference for seeing Kare's original 1984 icons, fonts and Finder in place.",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-01T05:50:24Z"
+    },
+    {
+      "full_name": "robhagemans/hoard-of-bitfonts",
+      "url": "https://github.com/robhagemans/hoard-of-bitfonts",
+      "stars": 1494,
+      "description": "turns out I like bitmap fonts",
+      "why": "Large archive of historical bitmap fonts from classic platforms to study how letterforms survive at 8-12 px.",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-09-15T20:18:31Z"
+    },
+    {
+      "full_name": "ryokun6/ryos",
+      "url": "https://github.com/ryokun6/ryos",
+      "stars": 1280,
+      "description": "ryOS, made with Cursor",
+      "why": "Web desktop recreating classic Mac OS/System 7 chrome and apps; a modern React take on Kare-era desktop metaphors.",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-01T14:30:16Z"
+    },
+    {
+      "full_name": "halfmage/pixelarticons",
+      "url": "https://github.com/halfmage/pixelarticons",
+      "stars": 886,
+      "description": "Beautiful pixel icons. For the pixel vibes.",
+      "why": "Consistent 24px pixel-grid icon set (SVG/React/font) applying Kare's clarity-at-tiny-size icon thinking to modern products.",
+      "license": "MIT",
+      "pushed_at": "2026-10-06T09:25:00Z"
+    },
+    {
+      "full_name": "hackernoon/pixel-icon-library",
+      "url": "https://github.com/hackernoon/pixel-icon-library",
+      "stars": 420,
+      "description": "The classic pixelated icons that define HackerNoon.com, free to use on your own site / app / product / project",
+      "why": "Production pixel icon library with Kare-like bold, readable metaphors at 16-24px.",
+      "license": "MIT",
+      "pushed_at": "2026-10-22T06:05:41Z"
+    },
+    {
+      "full_name": "KingDuane/Chicago-Kare",
+      "url": "https://github.com/KingDuane/Chicago-Kare",
+      "stars": 350,
+      "description": "A Faithful Reproduction of the Bitmap Version of the Chicago Typeface Created by Susan Kare for Apple Computer in 1984",
+      "why": "Direct, faithful revival of Kare's own Chicago bitmap font; the most literal artifact of her work on GitHub.",
+      "license": "MIT",
+      "pushed_at": "2024-12-06T21:13:02Z"
+    },
+    {
+      "full_name": "npjg/classic.css",
+      "url": "https://github.com/npjg/classic.css",
+      "stars": 237,
+      "description": "Generate a Classic Mac interface in your browser",
+      "why": "Lightweight CSS for classic Mac windows, menus and controls; alternate take to system.css on the 1-bit Mac look.",
+      "license": "MIT",
+      "pushed_at": "2024-04-05T03:56:35Z"
+    },
+    {
+      "full_name": "danmorgandesigns/classic-mac-elements",
+      "url": "https://github.com/danmorgandesigns/classic-mac-elements",
+      "stars": 12,
+      "description": "Classic Mac OS System 1-7 and HyperCard 1-bit elements.",
+      "why": "Low-star but highly on-target: extracted System 1-7 and HyperCard 1-bit UI elements and icons for direct study.",
+      "license": "NOASSERTION (no license file)",
+      "pushed_at": "2025-04-22T00:58:27Z"
+    }
+  ],
+  "top_clone_picks": [
+    "sakofchit/system.css",
+    "KingDuane/Chicago-Kare",
+    "halfmage/pixelarticons"
+  ],
+  "skills_or_tools": [
+    "Local Claude Code skills: frontend-design, design-html, impeccable, design-consultation (use with system.css + Chicago-Kare as constraints for a Kare-style UI)",
+    "Piskel / Pixelorama (listed above) for 1-bit 32x32 icon drafting",
+    "Figma: View > Pixel Grid + Snap to Pixel Grid, 1-bit two-color palette, 32x32 / 16x16 frames",
+    "mihaip/infinite-mac web emulator (infinitemac.org) for side-by-side reference with originals",
+    "Not verified in this run: kreativekorp/bitsnpicas (bitmap font editor), FontForge, Aseprite"
+  ],
+  "notes": "Star counts verified via gh api repos/OWNER/NAME on 2026-11-01. GitHub search rate limit hit after ~23 queries; macpaint/hypercard/classic-mac-icons searches not run. Excluded Windows-era kits (98.css) and general icon sets without pixel-grid focus. No archived repos included."
+}

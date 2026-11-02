@@ -1,0 +1,142 @@
+{
+  "person": "Dieter Rams",
+  "philosophy": "Rams (Braun 1955-1997, Vitsoe) held that good design is 'Weniger, aber besser' -- less, but better: innovative, useful, aesthetic, understandable, unobtrusive, honest, long-lasting, thorough, environmentally friendly, and as little design as possible. His functionalist minimalism uses strict grids, honest materials, muted greys and whites with a single functional accent colour, and tactile dials and switches whose form explains their use. It directly shaped Apple's Jony Ive-era products and today's Teenage Engineering / Nothing industrial aesthetic.",
+  "repos": [
+    {
+      "full_name": "dominikmartn/nothing-design-skill",
+      "url": "https://github.com/dominikmartn/nothing-design-skill",
+      "stars": 2849,
+      "description": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
+      "why": "Claude Code skill whose SKILL.md is explicitly grounded in Braun industrial design and Swiss typography: monochrome, typographic, restrained UI generation -- the most-starred living descendant of the Braun aesthetic (Rams cited via Braun, not by name).",
+      "license": "MIT",
+      "pushed_at": "2026-04-01T05:40:04Z"
+    },
+    {
+      "full_name": "helloSystem/hello",
+      "url": "https://github.com/helloSystem/hello",
+      "stars": 2470,
+      "description": "Desktop system for creators with a focus on simplicity, elegance, and usability. Based on FreeBSD. Less, but better!",
+      "why": "FreeBSD desktop whose tagline is literally Rams' 'Less, but better!' -- applies unobtrusive, honest, simple design to an entire OS (last push 2024-07).",
+      "license": "none",
+      "pushed_at": "2024-07-09T19:26:33Z"
+    },
+    {
+      "full_name": "zedr/dieter-rams-10-applied-to-software",
+      "url": "https://github.com/zedr/dieter-rams-10-applied-to-software",
+      "stars": 434,
+      "description": "(no description) Dieter Rams' principles of good design applied to software engineering",
+      "why": "Maps each of the Ten Principles of Good Design onto software engineering; canonical text reference (older: last push 2021-11, included as best Rams-specific match).",
+      "license": "CC0-1.0",
+      "pushed_at": "2021-11-18T07:00:52Z"
+    },
+    {
+      "full_name": "cideM/yui",
+      "url": "https://github.com/cideM/yui",
+      "stars": 144,
+      "description": "A minimal Vim/Neovim color scheme inspired by Dieter Rams",
+      "why": "Vim/Neovim colorscheme explicitly inspired by Rams: near-monochrome palette with minimal accent, color only where it carries meaning.",
+      "license": "MIT",
+      "pushed_at": "2026-07-17T13:28:00Z"
+    },
+    {
+      "full_name": "joe-bell/tenprinciples.design",
+      "url": "https://github.com/joe-bell/tenprinciples.design",
+      "stars": 45,
+      "description": "Dieter Rams' Ten Principles for Good Design",
+      "why": "Typographic site presenting Rams' Ten Principles; grid-driven, restrained layout to study and reuse.",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-14T12:56:56Z"
+    },
+    {
+      "full_name": "Gayaya999/product-design-three-views",
+      "url": "https://github.com/Gayaya999/product-design-three-views",
+      "stars": 42,
+      "description": "Multi-brand industrial design skill: Apple, Braun, Sony and Nothing; three consistent product concept images.",
+      "why": "Industrial-design agent skill with a Braun mode (functional zoning, physical controls, restrained accent colour) for product concept renders.",
+      "license": "none",
+      "pushed_at": "2026-09-16T11:56:06Z"
+    },
+    {
+      "full_name": "HermeticOrmus/design-mastery-claude-code",
+      "url": "https://github.com/HermeticOrmus/design-mastery-claude-code",
+      "stars": 19,
+      "description": "Design Mastery plugin for Claude Code - Learn from Saul Bass, Dieter Rams, and other masters. Build professional brand identities with systematic workflows.",
+      "why": "Claude Code plugin teaching design via masters including Rams; systematic principle-driven workflows.",
+      "license": "MIT",
+      "pushed_at": "2026-10-04T20:46:44Z"
+    },
+    {
+      "full_name": "sneed-and-feed/braun_rb-26",
+      "url": "https://github.com/sneed-and-feed/braun_rb-26",
+      "stars": 16,
+      "description": "BRAUN RB-26 \u00b7 Master Studio Reverberator",
+      "why": "Audio reverb plugin with Braun/Rams-style hardware faceplate UI (tagged dieter-rams): dials, switches, one orange accent.",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-13T17:46:02Z"
+    },
+    {
+      "full_name": "sneed-and-feed/braun_as-42",
+      "url": "https://github.com/sneed-and-feed/braun_as-42",
+      "stars": 8,
+      "description": "braun as-42 synth",
+      "why": "Companion synth plugin in the same Braun hardware idiom -- reference for tactile knob/switch UI.",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-13T17:46:06Z"
+    },
+    {
+      "full_name": "tr0drigues/TactileBar",
+      "url": "https://github.com/tr0drigues/TactileBar",
+      "stars": 6,
+      "description": "\ud83c\udf9b\ufe0f Precision Menu Bar Telemetry & 26-Switch Industrial Command Deck for macOS (Swift 6, Zero Dependencies, Mach Kernel CPU/RAM, IOBluetooth, DiskArbitration).",
+      "why": "macOS menu-bar instrument explicitly inspired by Rams/Braun and Teenage Engineering, citing 'Weniger, aber besser'; SwiftUI Canvas switches and gauges.",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-19T20:05:42Z"
+    },
+    {
+      "full_name": "stefanvanburen/rams",
+      "url": "https://github.com/stefanvanburen/rams",
+      "stars": 6,
+      "description": "a minimal neovim colorscheme",
+      "why": "Minimal Neovim colorscheme named for Rams (Lua port of rams.vim, 16 stars, 2021); quiet palette, few accents.",
+      "license": "MIT",
+      "pushed_at": "2026-04-15T13:16:42Z"
+    },
+    {
+      "full_name": "yangyue1974/rams-braun-ui",
+      "url": "https://github.com/yangyue1974/rams-braun-ui",
+      "stars": 4,
+      "description": "A Braun-era Dieter Rams design system as an Agent Skill \u2014 tokens, hard rules and a forbidden list, for Claude and Claude Code.",
+      "why": "Agent Skill encoding a Braun-era Rams design system: tokens, hard rules and a forbidden list -- directly reusable in Claude Code.",
+      "license": "MIT",
+      "pushed_at": "2026-08-10T07:54:24Z"
+    },
+    {
+      "full_name": "CodeInPas/BraunUI",
+      "url": "https://github.com/CodeInPas/BraunUI",
+      "stars": 4,
+      "description": "A pixel-perfect, skeuomorphic UI component library for Lazarus/FPC inspired by Dieter Rams' classic Braun designs. Features highly detailed knobs, faders, switches, LEDs, and dynamic theming.",
+      "why": "Skeuomorphic component library (Lazarus/FPC) inspired by Rams' Braun products: knobs, faders, switches, LEDs -- reference for honest tactile controls.",
+      "license": "MIT",
+      "pushed_at": "2026-10-08T14:54:59Z"
+    }
+  ],
+  "top_clone_picks": [
+    "yangyue1974/rams-braun-ui",
+    "dominikmartn/nothing-design-skill",
+    "joe-bell/tenprinciples.design"
+  ],
+  "skills_or_tools": [
+    "yangyue1974/rams-braun-ui -- drop-in Rams/Braun Agent Skill for Claude Code (tokens + forbidden list)",
+    "dominikmartn/nothing-design-skill -- Claude Code skill, Braun/TE-derived monochrome industrial UI",
+    "kevinpostal/dieter-rams-design-skill (0 stars) -- skill applying the 10 principles to software design",
+    "Nightingall/design-review-skills (0 stars) -- Claude skill: Dieter Rams product-judgement review",
+    "cipriantitire/tactile-modernism (1 star) -- agent skill: design UIs the way Braun made radios",
+    "benjaminsehl/omarchy-rams (0 stars) -- Omarchy desktop theme after Rams/Braun",
+    "ghaida/dieter-rams-vscode-theme (1 star) -- VS Code themes from Rams product palette",
+    "c-ehrlich/calculator (0 stars) -- React replica of Braun ET-55 calculator; LaravZ/calculator-ts -- ET66 clone",
+    "daniruiz/skeuos-css (76 stars, last push 2020) -- lightweight skeuomorphic CSS elements",
+    "Local skills already installed: apple-design, frontend-design, taste-skill:design-taste-frontend, impeccable, design-consultation (gstack)",
+    "Reference: Vitsoe 'Good design' page (vitsoe.com/gb/about/good-design); book 'Less but Better' (Rams, 1995)"
+  ],
+  "notes": "Star counts verified via gh api repos/OWNER/NAME on 2026-11-01. Excluded archived cassidyjames/principles (40 stars, 2021). Few Rams-themed repos exceed 50 stars; the >1k entries are spirit-aligned (Braun-cited skill, 'Less, but better' OS) rather than Rams-named."
+}

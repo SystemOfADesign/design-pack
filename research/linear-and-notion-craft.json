@@ -1,0 +1,337 @@
+{
+  "generated_at": "2026-11-01",
+  "source": "Instagram reel 'The Modern Designer's Knowledge Map' (Rajat Patel); stars verified via gh api repos/OWNER/NAME on 2026-11-01",
+  "orgs": [
+    {
+      "org": "Linear design engineering culture",
+      "philosophy": "Design engineers own UI end to end and ship it themselves, so craft survives into production. Product UI is keyboard-first (Cmd+K, chorded shortcuts), fast, dense and dark-mode-native, with the 'Linear look' of subtle gradients, glass, grain, tight Inter-style type and restrained, purposeful motion. The Linear Method frames this as opinionated, focused building with high quality bars.",
+      "official_repos": [
+        {
+          "full_name": "linear/linear",
+          "url": "https://github.com/linear/linear",
+          "stars": 1652,
+          "description": "Tools, SDK's and plugins for Linear",
+          "note": "Monorepo of Linear SDK, API tooling and plugins; no UI source published.",
+          "license": "MIT",
+          "pushed_at": "2026-10-31T06:42:13Z"
+        },
+        {
+          "full_name": "linear/linear-release",
+          "url": "https://github.com/linear/linear-release",
+          "stars": 70,
+          "description": "CLI to automatically track releases in Linear",
+          "note": "Release-tracking CLI.",
+          "license": "MIT",
+          "pushed_at": "2026-10-20T13:54:51Z"
+        },
+        {
+          "full_name": "linear/linear-solutions",
+          "url": "https://github.com/linear/linear-solutions",
+          "stars": 24,
+          "description": "Ready-made, agile solutions from the Linear team.",
+          "note": "Team-ready workflow solutions from Linear.",
+          "license": null,
+          "pushed_at": "2026-09-29T12:44:15Z"
+        }
+      ],
+      "official_repos_note": "Linear does not open-source its app UI or design system; craft must be studied via clones and design-engineer libs.",
+      "repos": [
+        {
+          "full_name": "makeplane/plane",
+          "url": "https://github.com/makeplane/plane",
+          "stars": 61806,
+          "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+          "why": "Largest OSS Linear alternative; study its issue list, cycles, keyboard nav and dense dark UI end to end.",
+          "license": "AGPL-3.0",
+          "pushed_at": "2026-10-30T08:57:51Z"
+        },
+        {
+          "full_name": "hcengineering/platform",
+          "url": "https://github.com/hcengineering/platform",
+          "stars": 28032,
+          "description": "Huly \u2014 All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)",
+          "why": "Huly: full Linear/Notion-style workspace; reference for fast issue tracking with keyboard-driven flows.",
+          "license": "EPL-2.0",
+          "pushed_at": "2026-10-31T02:42:29Z"
+        },
+        {
+          "full_name": "emilkowalski/sonner",
+          "url": "https://github.com/emilkowalski/sonner",
+          "stars": 13118,
+          "description": "An opinionated toast component for React.",
+          "why": "Emil Kowalski's toast; canonical design-engineer motion craft (stacking, swipe, easing) in Linear-style apps.",
+          "license": "MIT",
+          "pushed_at": "2026-08-10T11:13:03Z"
+        },
+        {
+          "full_name": "dip/cmdk",
+          "url": "https://github.com/dip/cmdk",
+          "stars": 13057,
+          "description": "Fast, unstyled command menu React component.",
+          "why": "Paco Coursey's cmdk: the Cmd+K command menu primitive behind Linear/Vercel-style palettes (moved from pacocoursey/cmdk).",
+          "license": "MIT",
+          "pushed_at": "2025-10-29T04:13:58Z"
+        },
+        {
+          "full_name": "emilkowalski/vaul",
+          "url": "https://github.com/emilkowalski/vaul",
+          "stars": 8671,
+          "description": "A drawer component for React.",
+          "why": "Physics-feeling drawer; study interruptible gestures and spring timing.",
+          "license": "MIT",
+          "pushed_at": "2025-10-03T19:25:32Z"
+        },
+        {
+          "full_name": "pacocoursey/next-themes",
+          "url": "https://github.com/pacocoursey/next-themes",
+          "stars": 6346,
+          "description": "Perfect Next.js dark mode in 2 lines of code. Support System preference and any other theme with no flashing",
+          "why": "Flash-free dark mode; baseline for dark-mode-native product UI.",
+          "license": "MIT",
+          "pushed_at": "2026-02-25T05:25:42Z"
+        },
+        {
+          "full_name": "timc1/kbar",
+          "url": "https://github.com/timc1/kbar",
+          "stars": 5261,
+          "description": "fast, portable, and extensible cmd+k interface for your site",
+          "why": "Portable Cmd+K interface with nested actions and shortcuts; alt to cmdk with built-in registry.",
+          "license": "MIT",
+          "pushed_at": "2026-08-10T16:00:36Z"
+        },
+        {
+          "full_name": "ln-dev7/circle",
+          "url": "https://github.com/ln-dev7/circle",
+          "stars": 4572,
+          "description": "UI - Project management interface inspired by Linear. Built with Next.js and shadcn/ui, this application allows tracking of issues, projects and teams.",
+          "why": "Closest OSS replica of Linear's app UI (sidebar, issue list, density) on Next.js + shadcn/ui; best reuse target.",
+          "license": "MIT",
+          "pushed_at": "2026-09-04T13:42:14Z"
+        },
+        {
+          "full_name": "jamiebuilds/tinykeys",
+          "url": "https://github.com/jamiebuilds/tinykeys",
+          "stars": 4104,
+          "description": "A tiny (~650 B) & modern library for keybindings.",
+          "why": "650B keybinding lib with sequences (g then i); fits Linear-style chorded shortcuts.",
+          "license": "MIT",
+          "pushed_at": "2026-09-25T21:03:56Z"
+        },
+        {
+          "full_name": "JohannesKlauss/react-hotkeys-hook",
+          "url": "https://github.com/JohannesKlauss/react-hotkeys-hook",
+          "stars": 3505,
+          "description": "React hook for using keyboard shortcuts in components.",
+          "why": "React hook for scoped shortcuts; practical layer for keyboard-first components.",
+          "license": "MIT",
+          "pushed_at": "2026-10-26T11:08:52Z"
+        },
+        {
+          "full_name": "vercel-labs/web-interface-guidelines",
+          "url": "https://github.com/vercel-labs/web-interface-guidelines",
+          "stars": 1083,
+          "description": "Guidelines for building interfaces on the Web.",
+          "why": "Rauno/Vercel interface detail checklist; codifies design-engineer craft rules (successor to raunofreiberg/interfaces).",
+          "license": "MIT",
+          "pushed_at": "2026-10-05T20:49:17Z"
+        },
+        {
+          "full_name": "frontendfyi/rebuilding-linear.app",
+          "url": "https://github.com/frontendfyi/rebuilding-linear.app",
+          "stars": 315,
+          "description": "Rebuilding Linear.app's website with Next.js, Tailwind and Framer Motion.",
+          "why": "Rebuild of Linear's marketing site: gradients, glow, grain, tight type, Framer Motion reveals.",
+          "license": "NOASSERTION",
+          "pushed_at": "2024-03-13T17:09:34Z"
+        }
+      ],
+      "top_clone_picks": [
+        "ln-dev7/circle",
+        "makeplane/plane",
+        "dip/cmdk"
+      ]
+    },
+    {
+      "org": "Notion craft team",
+      "philosophy": "Polish is a dedicated team function, not an afterthought: a craft team sweeps edges, transitions and copy across the product. Everything is a block, editing is direct and forgiving (slash menu, drag handles, nesting), and delight comes from small micro-interactions and thoughtful empty states that teach the product.",
+      "official_repos": [
+        {
+          "full_name": "makenotion/notion-sdk-js",
+          "url": "https://github.com/makenotion/notion-sdk-js",
+          "stars": 5680,
+          "description": "Official Notion JavaScript Client",
+          "note": "Official JS API client.",
+          "license": "MIT",
+          "pushed_at": "2026-10-30T22:26:29Z"
+        },
+        {
+          "full_name": "makenotion/notion-mcp-server",
+          "url": "https://github.com/makenotion/notion-mcp-server",
+          "stars": 4691,
+          "description": "Official Notion MCP Server",
+          "note": "Official Notion MCP server.",
+          "license": "MIT",
+          "pushed_at": "2026-10-29T16:10:22Z"
+        },
+        {
+          "full_name": "makenotion/skills",
+          "url": "https://github.com/makenotion/skills",
+          "stars": 179,
+          "description": "Notion skills for agents",
+          "note": "Notion agent skills.",
+          "license": "MIT",
+          "pushed_at": "2026-09-22T22:14:26Z"
+        },
+        {
+          "full_name": "makenotion/claude-code-notion-plugin",
+          "url": "https://github.com/makenotion/claude-code-notion-plugin",
+          "stars": 502,
+          "description": "Connect Claude Code to Notion via this Plugin",
+          "note": "Claude Code plugin for Notion.",
+          "license": null,
+          "pushed_at": "2026-01-22T19:21:32Z"
+        },
+        {
+          "full_name": "makenotion/takehome-mentions",
+          "url": "https://github.com/makenotion/takehome-mentions",
+          "stars": 8,
+          "description": "Build an @-mention menu. For early career candidates.",
+          "note": "Notion take-home: build an @-mention menu; shows the craft bar they hire for.",
+          "license": "MIT",
+          "pushed_at": "2026-08-13T21:00:59Z"
+        }
+      ],
+      "official_repos_note": "Notion does not open-source its editor/UI; makenotion repos are API/SDK/agent tooling.",
+      "repos": [
+        {
+          "full_name": "AppFlowy-IO/AppFlowy",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy",
+          "stars": 78067,
+          "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+          "why": "Biggest OSS Notion alternative; full block docs + databases + empty states to study.",
+          "license": "AGPL-3.0",
+          "pushed_at": "2026-10-28T06:07:27Z"
+        },
+        {
+          "full_name": "toeverything/AFFiNE",
+          "url": "https://github.com/toeverything/AFFiNE",
+          "stars": 74040,
+          "description": "There can be more than Notion and Miro. AFFiNE(pronounced [\u0259\u2018fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+          "why": "Notion+Miro hybrid with high polish; study block/edgeless transitions and micro-interactions.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-11-01T12:25:56Z"
+        },
+        {
+          "full_name": "outline/outline",
+          "url": "https://github.com/outline/outline",
+          "stars": 41130,
+          "description": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
+          "why": "Most Notion-quality docs UX in OSS: slash menu, mentions, fast search, careful empty states.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-11-01T14:13:37Z"
+        },
+        {
+          "full_name": "ueberdosis/tiptap",
+          "url": "https://github.com/ueberdosis/tiptap",
+          "stars": 38922,
+          "description": "The headless rich text editor framework for web artisans.",
+          "why": "Headless ProseMirror framework underpinning most Notion-style editors (Novel, BlockNote, Docmost).",
+          "license": "MIT",
+          "pushed_at": "2026-10-30T16:19:00Z"
+        },
+        {
+          "full_name": "codex-team/editor.js",
+          "url": "https://github.com/codex-team/editor.js",
+          "stars": 31987,
+          "description": "A block-style editor with clean JSON output",
+          "why": "Pure block-style editor with clean JSON output; reference block data model.",
+          "license": "Apache-2.0",
+          "pushed_at": "2026-11-01T14:05:25Z"
+        },
+        {
+          "full_name": "docmost/docmost",
+          "url": "https://github.com/docmost/docmost",
+          "stars": 22183,
+          "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
+          "why": "OSS Confluence/Notion wiki; polished page tree, comments and editor on Tiptap.",
+          "license": "AGPL-3.0",
+          "pushed_at": "2026-11-01T04:08:40Z"
+        },
+        {
+          "full_name": "udecode/plate",
+          "url": "https://github.com/udecode/plate",
+          "stars": 16685,
+          "description": "Rich-text editor with AI and shadcn/ui",
+          "why": "Slate + shadcn/ui rich editor with AI, DnD blocks, slash commands; copyable components.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-11-01T14:31:29Z"
+        },
+        {
+          "full_name": "steven-tey/novel",
+          "url": "https://github.com/steven-tey/novel",
+          "stars": 16463,
+          "description": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
+          "why": "Notion-style WYSIWYG with AI autocomplete; small, readable Tiptap reference (last push 2025-01).",
+          "license": "Apache-2.0",
+          "pushed_at": "2025-01-18T14:26:33Z"
+        },
+        {
+          "full_name": "TypeCellOS/BlockNote",
+          "url": "https://github.com/TypeCellOS/BlockNote",
+          "stars": 10351,
+          "description": "A React Rich Text Editor that's block-based (Notion style) and extensible. Built on top of Prosemirror and Tiptap.",
+          "why": "Drop-in Notion-style block editor (drag handles, slash menu, nesting); fastest path to Notion feel.",
+          "license": "NOASSERTION",
+          "pushed_at": "2026-10-30T18:29:29Z"
+        },
+        {
+          "full_name": "toeverything/blocksuite",
+          "url": "https://github.com/toeverything/blocksuite",
+          "stars": 6080,
+          "description": "\ud83e\udde9 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.",
+          "why": "AFFiNE's editor toolkit; deep dive into block architecture and collaborative editing.",
+          "license": "MPL-2.0",
+          "pushed_at": "2026-11-01T12:35:04Z"
+        },
+        {
+          "full_name": "yoopta-editor/Yoopta-Editor",
+          "url": "https://github.com/yoopta-editor/Yoopta-Editor",
+          "stars": 3093,
+          "description": "Build Notion-like, Craft-like, Coda-like, Medium-like editors with Yoopta",
+          "why": "Notion/Craft-like block editor on Slate with plugin blocks and marks toolbar.",
+          "license": "MIT",
+          "pushed_at": "2026-05-11T14:37:43Z"
+        },
+        {
+          "full_name": "ddoemonn/interior",
+          "url": "https://github.com/ddoemonn/interior",
+          "stars": 1209,
+          "description": "micro-interactions for react, built for the half-second after a click",
+          "why": "Micro-interaction library for 'the half-second after a click'; maps to Notion craft-team delight.",
+          "license": "MIT",
+          "pushed_at": "2026-10-21T21:31:59Z"
+        }
+      ],
+      "top_clone_picks": [
+        "TypeCellOS/BlockNote",
+        "steven-tey/novel",
+        "outline/outline"
+      ]
+    }
+  ],
+  "skills_or_tools": [
+    "emilkowalski/skills (GitHub, 52622 stars): Skills for Designers and Engineers by Emil Kowalski",
+    "Local Claude Code skill: emil-design-eng (Emil Kowalski design-engineering craft)",
+    "Local Claude Code skills: animate, improve-animations, find-animation-opportunities, animation-vocabulary (motion craft)",
+    "Local Claude Code skill: apple-design (springs, gestures, interruptible motion)",
+    "Local Claude Code skills: impeccable:impeccable, taste-skill:design-taste-frontend, frontend-design:frontend-design (anti-generic polish)",
+    "Local Claude Code skill: anatomy (Linear-style premium isometric technical illustrations)",
+    "Local Claude Code skill: design:ux-copy (empty states, microcopy - Notion craft)",
+    "makenotion/skills (GitHub, 179 stars): official Notion agent skills",
+    "vercel-labs/web-interface-guidelines: interface detail checklist usable as review rubric",
+    "remvze/desengs (276 stars): curated design-engineer resources list",
+    "raunofreiberg/interfaces (1955 stars, last push 2023-09): original 'details that make a good web interface' list",
+    "linear.app/method and linear.app/now (Linear Method + design blog posts; not on GitHub)",
+    "animations.dev (Emil Kowalski course) and rauno.me/craft (Rauno Freiberg craft essays)"
+  ]
+}

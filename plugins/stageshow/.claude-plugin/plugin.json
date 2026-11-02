@@ -1,0 +1,11 @@
+{
+  "name": "stageshow",
+  "version": "0.1.0",
+  "description": "Faux product UI illustrations and cursor demo animations in React: hero shots, feature cards, bento tiles, phone stories. Kit, gold examples, teaching pairs and film-based verification. Vendored from benjitaylor/skills; see VENDORED.md.",
+  "author": { "name": "Benji Taylor", "url": "https://benji.org/stageshow" },
+  "homepage": "https://benji.org/stageshow",
+  "repository": "https://github.com/benjitaylor/skills",
+  "license": "MIT",
+  "keywords": ["design", "illustration", "faux-ui", "motion", "marketing", "react"],
+  "skills": "./skills/"
+}

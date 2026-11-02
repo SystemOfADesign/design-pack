@@ -1,0 +1,1653 @@
+{
+ "generated_from": "research/build-skills-grid.py",
+ "layers": [
+  "Philosophy/taste",
+  "Product/why",
+  "Brand/identity",
+  "Tokens/system",
+  "Components/API",
+  "Motion",
+  "Screens/pages",
+  "AI-specific UX",
+  "Cross-cutting (a11y, copy, perf)"
+ ],
+ "modes": [
+  "Doctrine",
+  "Generate",
+  "Audit/review",
+  "Fix",
+  "Gate/pipeline",
+  "Reference"
+ ],
+ "skills": [
+  {
+   "name": "37signals-way",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/37signals-way/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Build lean, opinionated products using the 37signals philosophy from \"Getting Real\", \"Rework\", and \"Shape Up\". Use when the user mentions \"Getting Rea"
+  },
+  {
+   "name": "a11y-audit",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/a11y-audit/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Audit a UI or design against WCAG 2.2 AA/AAA and ARIA patterns, returning criterion-referenced findings with severity and specific fixes. Use when the"
+  },
+  {
+   "name": "accessibility-review",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "design:accessibility-review",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/accessibility-review/SKILL.md"
+   ],
+   "sources": [
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with \"audit accessibility\", \"check a11y\", \"is this accessible?\", or when reviewing "
+  },
+  {
+   "name": "ai-elements",
+   "layer": "AI-specific UX",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/vercel_ai-elements/skills/ai-elements/SKILL.md"
+   ],
+   "sources": [
+    "vercel/ai-elements"
+   ],
+   "description": "Build AI chat interfaces using ai-elements components \u2014 conversations, messages, tool displays, prompt inputs, and more. Use when the user wants to bu"
+  },
+  {
+   "name": "algorithmic-art",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/anthropics_skills/skills/algorithmic-art/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills"
+   ],
+   "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code"
+  },
+  {
+   "name": "anatomy",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/anatomy",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/anatomy/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a real physical object (a test rig, a dial gauge, a"
+  },
+  {
+   "name": "animate",
+   "layer": "Motion",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/animate",
+   "paths": [
+    "repos/emilkowalski_skills/skills/animate/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/animate/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right \u2014 should it animate at all, what purpose, wh"
+  },
+  {
+   "name": "animate-expo",
+   "layer": "Motion",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/animate-expo",
+   "paths": [
+    "repos/emilkowalski_skills/skills/animate-expo/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/animate-expo/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right \u2014 should it animate, which thread"
+  },
+  {
+   "name": "animation-performance",
+   "layer": "Motion",
+   "mode": "Doctrine",
+   "installed_at_generation": true,
+   "invoke": "/animation-performance",
+   "paths": [
+    "repos/emilkowalski_skills/skills/animation-performance/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/animation-performance/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Keep web animations inside the frame budget \u2014 animate composite-only properties, keep motion off the main thread when the page is busy, and find the c"
+  },
+  {
+   "name": "animation-vocabulary",
+   "layer": "Motion",
+   "mode": "Reference",
+   "installed_at_generation": true,
+   "invoke": "/animation-vocabulary",
+   "paths": [
+    "repos/emilkowalski_skills/skills/animation-vocabulary/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/animation-vocabulary/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens"
+  },
+  {
+   "name": "apple-design",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": true,
+   "invoke": "/apple-design",
+   "paths": [
+    "repos/emilkowalski_skills/skills/apple-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/apple-design/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring anim"
+  },
+  {
+   "name": "apply-aesthetic",
+   "layer": "Brand/identity",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/apply-aesthetic/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Apply a visual direction, an archetype (high-end agency, editorial minimal, brutalist, soft-SaaS, dark-tech) or one of 2,144 named design systems (app"
+  },
+  {
+   "name": "ask-sonner",
+   "layer": "Components/API",
+   "mode": "Reference",
+   "installed_at_generation": true,
+   "invoke": "/ask-sonner",
+   "paths": [
+    "repos/emilkowalski_skills/skills/ask-sonner/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/ask-sonner/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Guide to Sonner, the React toast library \u2014 install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismiss"
+  },
+  {
+   "name": "awesome-design-md",
+   "layer": "Tokens/system",
+   "mode": "Reference",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/VoltAgent_awesome-design-md/README.md"
+   ],
+   "sources": [
+    "VoltAgent/awesome-design-md"
+   ],
+   "description": "Corpus of DESIGN.md files reverse-engineered from real brand design systems (reference, not a skill)"
+  },
+  {
+   "name": "banner-design",
+   "layer": "Brand/identity",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/banner-design/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill"
+   ],
+   "description": "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with optional generated or supplied v"
+  },
+  {
+   "name": "baseline-ui",
+   "layer": "Screens/pages",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/baseline-ui/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass."
+  },
+  {
+   "name": "brand",
+   "layer": "Brand/identity",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/brand/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill"
+   ],
+   "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets"
+  },
+  {
+   "name": "brand-guidelines",
+   "layer": "Brand/identity",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/anthropics_skills/skills/brand-guidelines/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills"
+   ],
+   "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when b"
+  },
+  {
+   "name": "brand-identity",
+   "layer": "Brand/identity",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/fatihaydost_brand-identity-skill/skills/brand-identity/SKILL.md"
+   ],
+   "sources": [
+    "fatihaydost/brand-identity-skill"
+   ],
+   "description": "Brand identity sets from one brief - logo, typography and colour palette built together, measured (contrast, colour blindness, glyph coverage, font li"
+  },
+  {
+   "name": "brandkit",
+   "layer": "Brand/identity",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/brandkit/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Generate a complete, accessible brand design system from a brief, as primitive \u2192 semantic \u2192 component DTCG tokens (color, type, spacing, radius, shado"
+  },
+  {
+   "name": "break-ui",
+   "layer": "Components/API",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/break-ui",
+   "paths": [
+    "repos/emilkowalski_skills/skills/break-ui/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/break-ui/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Try to break a piece of UI by feeding it worst-case data \u2014 long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, "
+  },
+  {
+   "name": "canvas-design",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/canvas-design",
+   "paths": [
+    "repos/anthropics_skills/skills/canvas-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/synced/d0d960b5-910e-49f6-bda0-3e195cd9d272_bbb374a7-ea1f-4a06-a421-18bb64627947/canvas-design/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece"
+  },
+  {
+   "name": "component-canvas",
+   "layer": "Components/API",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/component-canvas/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Build a full-screen, interactive canvas to explore existing UI components and their variants with pan and zoom."
+  },
+  {
+   "name": "continuous-discovery",
+   "layer": "Product/why",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/continuous-discovery/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Build a weekly cadence of customer touchpoints using Opportunity Solution Trees, assumption mapping, and interview snapshots. Use when the user mentio"
+  },
+  {
+   "name": "create-canvas",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/create-canvas/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Build a freeform canvas to explore, compare, and iterate on anything."
+  },
+  {
+   "name": "create-design-md",
+   "layer": "Tokens/system",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/create-design-md/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Create or update a DESIGN.md from an existing product repository or public website. Use when asked to document an interface's design language, reconst"
+  },
+  {
+   "name": "critique",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/critique/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Adversarial design critique of the current work. Render it, look at it, and argue for rejection. Run after the gates are green, never instead of them."
+  },
+  {
+   "name": "data-dashboard",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/data-dashboard/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Build a dense, data-heavy screen - an analytics console or a trading terminal - with real charts drawn from tokens: candlestick, volume, depth, stacke"
+  },
+  {
+   "name": "design",
+   "layer": "Brand/identity",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/design/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill"
+   ],
+   "description": "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini, Atlas Cloud, or MuAPI AI), corporate identi"
+  },
+  {
+   "name": "design-code",
+   "layer": "Components/API",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-code/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Generate production-ready, accessible, token-driven component code for ANY framework (React+Tailwind, Next.js, SwiftUI, Vue, Svelte, Angular, Solid, W"
+  },
+  {
+   "name": "design-component",
+   "layer": "Components/API",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-component/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Design a UI component spec to the house quality bar (anatomy, variants, sizes, the 8 states, token mapping, and accessibility). Use when the user want"
+  },
+  {
+   "name": "design-consultation",
+   "layer": "Philosophy/taste",
+   "mode": "Reference",
+   "installed_at_generation": true,
+   "invoke": "/design-consultation",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/design-consultation/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/gstack/design-consultation/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spac"
+  },
+  {
+   "name": "design-critique",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "design:design-critique",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/design-critique/SKILL.md"
+   ],
+   "sources": [
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Get structured design feedback on usability, hierarchy, and consistency. Trigger with \"review this design\", \"critique this mockup\", \"what do you think"
+  },
+  {
+   "name": "design-doctrine",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-doctrine/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "The house rules for ANY design or UI work - the verification protocol (run the gate, never claim a number), the absolute no-emoji rule, token by inten"
+  },
+  {
+   "name": "design-everyday-things",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/design-everyday-things/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Apply foundational design principles: affordances, signifiers, constraints, feedback, and conceptual models. Use when the user mentions \"why is this c"
+  },
+  {
+   "name": "design-handoff",
+   "layer": "Screens/pages",
+   "mode": "Gate/pipeline",
+   "installed_at_generation": true,
+   "invoke": "design:design-handoff",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/design-handoff/SKILL.md"
+   ],
+   "sources": [
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, comp"
+  },
+  {
+   "name": "design-html",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/design-html",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/design-html/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/gstack/design-html/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)"
+  },
+  {
+   "name": "design-motion-principles",
+   "layer": "Motion",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/kylezantos_design-motion-principles/skills/design-motion-principles/SKILL.md"
+   ],
+   "sources": [
+    "kylezantos/design-motion-principles"
+   ],
+   "description": "Motion and interaction design expert based on Emil Kowalski, Jakub Krehel, and Jhey Tompkins' techniques. Two modes \u2014 build interactive components wit"
+  },
+  {
+   "name": "design-qa",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Gate/pipeline",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-qa/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Set up or run design QA gates for token + hardcoded-value lint, automated a11y (axe), contrast, visual regression across variants/states/themes/RTL, a"
+  },
+  {
+   "name": "design-review",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/design-review",
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-review/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/design-review/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/gstack/design-review/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Review or audit a design/UI across 6 weighted dimensions with Nielsen's 10 heuristics and a prioritized findings table. Use when the user wants a desi"
+  },
+  {
+   "name": "design-screen",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-screen/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Design or build a page, screen, landing page, website, app or UI from a request - the whole job, end to end. Use this for \"design a landing page\", \"bu"
+  },
+  {
+   "name": "design-shotgun",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/design-shotgun",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/design-shotgun/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/gstack/design-shotgun/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. (gstack)"
+  },
+  {
+   "name": "design-sprint",
+   "layer": "Product/why",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/design-sprint/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Run a structured 5-day process to prototype, test, and validate product ideas with real users. Use when the user mentions \"design sprint\", \"validate b"
+  },
+  {
+   "name": "design-system",
+   "layer": "Tokens/system",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "design:design-system",
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/design-system/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/design-system/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill",
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive\u2192semantic\u2192component), CSS variables, spacing/typograp"
+  },
+  {
+   "name": "design-taste-frontend",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": true,
+   "invoke": "taste-skill:design-taste-frontend",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/taste-skill/taste-skill/2.1.3/skills/taste-skill/SKILL.md"
+   ],
+   "sources": [
+    "plugin taste-skill"
+   ],
+   "description": "-"
+  },
+  {
+   "name": "design-tokens",
+   "layer": "Tokens/system",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/design-tokens/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Generate, extend, or audit design tokens in DTCG format with the 3-tier architecture (primitive \u2192 semantic \u2192 component). Use when the user wants a col"
+  },
+  {
+   "name": "diagram",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/diagram",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/diagram/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/gstack/diagram/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open on excalidraw.com, and r"
+  },
+  {
+   "name": "discernment-nudge",
+   "layer": "AI-specific UX",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/anthropics_skills/skills/discernment-nudge/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills"
+   ],
+   "description": "People often take an AI answer at face value, especially when it's"
+  },
+  {
+   "name": "emil-design-eng",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": true,
+   "invoke": "/emil-design-eng",
+   "paths": [
+    "repos/emilkowalski_skills/skills/emil-design-eng/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/emil-design-eng/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel g"
+  },
+  {
+   "name": "excalidraw-skill",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/excalidraw-skill",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/excalidraw-skill/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Excalidraw canvas toolkit for creating, editing, and refining diagrams on a live canvas. Use when an agent needs to (1) draw or lay out diagrams, (2) "
+  },
+  {
+   "name": "figma-integration",
+   "layer": "Tokens/system",
+   "mode": "Gate/pipeline",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/figma-integration/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Keep Figma and code in sync. Map the 3-tier DTCG tokens to Figma Variables (collections + modes), sync in either direction, use the Figma MCP when con"
+  },
+  {
+   "name": "find-animation-opportunities",
+   "layer": "Motion",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/find-animation-opportunities",
+   "paths": [
+    "repos/emilkowalski_skills/skills/find-animation-opportunities/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/find-animation-opportunities/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact value"
+  },
+  {
+   "name": "fixing-accessibility",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/fixing-accessibility/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding"
+  },
+  {
+   "name": "fixing-motion-performance",
+   "layer": "Motion",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/fixing-motion-performance/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animati"
+  },
+  {
+   "name": "frontend-design",
+   "layer": "Screens/pages",
+   "mode": "Doctrine",
+   "installed_at_generation": true,
+   "invoke": "frontend-design:frontend-design",
+   "paths": [
+    "repos/anthropics_skills/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/1.1.1/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/41f619d61b99/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/465f09344424/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/58267944f921/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/5d6e71434145/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/af59ee3a1051/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/beecef224291/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/d1adba47161a/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/e68e375d2286/skills/frontend-design/SKILL.md",
+    "/Users/nikhiljoshi/.claude/plugins/cache/claude-plugins-official/frontend-design/ea10b213686c/skills/frontend-design/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills",
+    "plugin frontend-design"
+   ],
+   "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and"
+  },
+  {
+   "name": "gate",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Gate/pipeline",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/gate/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Run the one-command quality gate and report the real N/N result. Use before claiming any build/review is done."
+  },
+  {
+   "name": "governance",
+   "layer": "Tokens/system",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/governance/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Govern how the design system evolves (SemVer for tokens/components, the contribution workflow, deprecation policy, and change communication). Use when"
+  },
+  {
+   "name": "grill-me",
+   "layer": "Product/why",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/grill-me/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Interrogate the brief before a line is built. Ask only the questions whose answers change the work, and put every unasked decision on the record as a "
+  },
+  {
+   "name": "hooked-ux",
+   "layer": "Product/why",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/hooked-ux/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming"
+  },
+  {
+   "name": "image-to-code",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/image-to-code/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Turn a reference image, screenshot, or mockup into token-driven, accessible code. Infer the design system from the reference (palette, type scale, spa"
+  },
+  {
+   "name": "impeccable",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": true,
+   "invoke": "impeccable:impeccable",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/impeccable/impeccable/4.7.0/skills/impeccable/SKILL.md"
+   ],
+   "sources": [
+    "plugin impeccable"
+   ],
+   "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: web"
+  },
+  {
+   "name": "improve-animations",
+   "layer": "Motion",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/improve-animations",
+   "paths": [
+    "repos/emilkowalski_skills/skills/improve-animations/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/improve-animations/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for"
+  },
+  {
+   "name": "improve-ui",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/improve-ui/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for an"
+  },
+  {
+   "name": "interface-design",
+   "layer": "Screens/pages",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/Dammyjay93_interface-design/.claude/skills/interface-design/SKILL.md"
+   ],
+   "sources": [
+    "Dammyjay93/interface-design"
+   ],
+   "description": "Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when desig"
+  },
+  {
+   "name": "ios-design-review",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/ios-design-review",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/gstack/ios-design-review/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/ios-design-review/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Visual design audit for iOS apps on real hardware. (gstack)"
+  },
+  {
+   "name": "ios-hig-design",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/ios-hig-design/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Design native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \""
+  },
+  {
+   "name": "jobs-to-be-done",
+   "layer": "Product/why",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/jobs-to-be-done/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Discover what customers truly need by analyzing the \"job\" they hire your product to do. Use when the user mentions \"customer discovery\", \"why customer"
+  },
+  {
+   "name": "lean-ux",
+   "layer": "Product/why",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/lean-ux/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Apply lean thinking to UX: hypothesis-driven design, collaborative sketching, and rapid experiments instead of heavy deliverables. Use when the user m"
+  },
+  {
+   "name": "microinteractions",
+   "layer": "Motion",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/microinteractions/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Design the small details -- triggers, rules, feedback, loops and modes -- that separate good products from great ones. Use when the user mentions \"mic"
+  },
+  {
+   "name": "migrate-design-system",
+   "layer": "Tokens/system",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/migrate-design-system/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Map this token system to or from any external design system (Material Design 3, Apple HIG, Fluent, Carbon, Ant, shadcn/ui, Radix, Chakra, Mantine, Boo"
+  },
+  {
+   "name": "mobile-native",
+   "layer": "Screens/pages",
+   "mode": "Fix",
+   "installed_at_generation": true,
+   "invoke": "/mobile-native",
+   "paths": [
+    "repos/emilkowalski_skills/skills/mobile-native/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/mobile-native/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Make a web app feel native on a phone \u2014 the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. C"
+  },
+  {
+   "name": "mom-test",
+   "layer": "Product/why",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/mom-test/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Talk to customers without leading them using Mom Test rules: discuss their life not your idea, ask about specifics in the past, and talk less. Use whe"
+  },
+  {
+   "name": "motion-design",
+   "layer": "Motion",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/LottieFiles_motion-design-skill/skills/motion-design/SKILL.md"
+   ],
+   "sources": [
+    "LottieFiles/motion-design-skill"
+   ],
+   "description": "Use this skill when:"
+  },
+  {
+   "name": "nothing-design",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/dominikmartn_nothing-design-skill/nothing-design/SKILL.md"
+   ],
+   "sources": [
+    "dominikmartn/nothing-design-skill"
+   ],
+   "description": "This skill should be used when the user explicitly says \"Nothing style\", \"Nothing design\", \"/nothing-design\", or directly asks to use/apply the Nothin"
+  },
+  {
+   "name": "office-hours",
+   "layer": "Product/why",
+   "mode": "Reference",
+   "installed_at_generation": true,
+   "invoke": "/office-hours",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/gstack/office-hours/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/office-hours/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "YC Office Hours \u2014 two modes. (gstack)"
+  },
+  {
+   "name": "performance",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/performance/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Optimize UI performance against Core Web Vitals (LCP, INP, CLS) with loading/code-split strategy, layout-shift prevention, and animation performance r"
+  },
+  {
+   "name": "pick-ui-library",
+   "layer": "Components/API",
+   "mode": "Reference",
+   "installed_at_generation": true,
+   "invoke": "/pick-ui-library",
+   "paths": [
+    "repos/emilkowalski_skills/skills/pick-ui-library/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/pick-ui-library/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Pick the right library for a given frontend task from a curated, opinionated list \u2014 numbers, OTP inputs, charts, command menus, virtualization, drag a"
+  },
+  {
+   "name": "plan-design-review",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/plan-design-review",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/skills/gstack/plan-design-review/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/plan-design-review/SKILL.md"
+   ],
+   "sources": [
+    "local ~/.claude/skills"
+   ],
+   "description": "Designer's eye plan review \u2014 interactive, like CEO and Eng review. (gstack)"
+  },
+  {
+   "name": "prototype",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "/prototype",
+   "paths": [
+    "repos/emilkowalski_skills/skills/prototype/SKILL.md",
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/prototype/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/prototype/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "plugin87/ux-ui-agent-skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote "
+  },
+  {
+   "name": "rams-braun-ui",
+   "layer": "Philosophy/taste",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/yangyue1974_rams-braun-ui/SKILL.md"
+   ],
+   "sources": [
+    "yangyue1974/rams-braun-ui"
+   ],
+   "description": "Braun-era Dieter Rams visual design system for web/app UI. Produces interfaces that look and behave like Braun products (1955\u20131995) \u2014 warm-neutral cha"
+  },
+  {
+   "name": "redesign",
+   "layer": "Screens/pages",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/redesign/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Upgrade an existing website or app to premium quality without breaking functionality. Audit the current design, identify generic/AI tells, then apply "
+  },
+  {
+   "name": "refactoring-ui",
+   "layer": "Screens/pages",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/plugins/ux-design/skills/refactoring-ui/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\" (or amateur/unprofessional), \"fix t"
+  },
+  {
+   "name": "refine-live",
+   "layer": "Motion",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/Jakubantalik_transitions.dev/refine/.agents/skills/refine-live/SKILL.md"
+   ],
+   "sources": [
+    "Jakubantalik/transitions.dev"
+   ],
+   "description": "In-chat fallback for the Timeline Inspector Refine agent. Use when the user runs `/refine live`, asks to \"refine live\", \"go live\", or answer refine jo"
+  },
+  {
+   "name": "remove-animations",
+   "layer": "Motion",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/emilkowalski_skills/skills/remove-animations/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills"
+   ],
+   "description": "Find the animations an interface doesn't need and remove them \u2014 motion on keyboard actions, high-frequency surfaces, functional data, and decoration w"
+  },
+  {
+   "name": "research-synthesis",
+   "layer": "Product/why",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "design:research-synthesis",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/research-synthesis/SKILL.md"
+   ],
+   "sources": [
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, su"
+  },
+  {
+   "name": "review-animations",
+   "layer": "Motion",
+   "mode": "Audit/review",
+   "installed_at_generation": true,
+   "invoke": "/review-animations",
+   "paths": [
+    "repos/emilkowalski_skills/skills/review-animations/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/review-animations/SKILL.md"
+   ],
+   "sources": [
+    "emilkowalski/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval i"
+  },
+  {
+   "name": "ship",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Gate/pipeline",
+   "installed_at_generation": true,
+   "invoke": "/ship",
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/ship/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/gstack/ship/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/ship/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Pre-release gate. Run the full gate, responsive + render checks, then produce the release checklist (README badge/current/changelog). Use before taggi"
+  },
+  {
+   "name": "skill-creator",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Reference",
+   "installed_at_generation": true,
+   "invoke": "/skill-creator",
+   "paths": [
+    "repos/anthropics_skills/skills/skill-creator/SKILL.md",
+    "/Users/nikhiljoshi/.claude/skills/synced/d0d960b5-910e-49f6-bda0-3e195cd9d272_bbb374a7-ea1f-4a06-a421-18bb64627947/skill-creator/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills",
+    "local ~/.claude/skills"
+   ],
+   "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or opt"
+  },
+  {
+   "name": "slides",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/slides/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill"
+   ],
+   "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies."
+  },
+  {
+   "name": "stageshow",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/benjitaylor_skills/stageshow/SKILL.md"
+   ],
+   "sources": [
+    "benjitaylor/skills"
+   ],
+   "description": "Build faux product UI that looks like a real product, as a still illustration or an animated demo with a cursor. Browser and app windows, dashboards, "
+  },
+  {
+   "name": "steve-jobs-design-review",
+   "layer": "Philosophy/taste",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/plugins/ux-design/skills/steve-jobs-design-review/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Review designs, products, and features with Steve Jobs'' standards: ruthless simplicity, focus, and end-to-end excellence. Use when the user mentions "
+  },
+  {
+   "name": "theme-factory",
+   "layer": "Brand/identity",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/anthropics_skills/skills/theme-factory/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills"
+   ],
+   "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with"
+  },
+  {
+   "name": "token-build",
+   "layer": "Tokens/system",
+   "mode": "Gate/pipeline",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/token-build/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Set up or run the token build pipeline. Transform the DTCG tokens/*.json (source of truth) into platform artifacts (CSS variables, Tailwind @theme, JS"
+  },
+  {
+   "name": "top-design",
+   "layer": "Philosophy/taste",
+   "mode": "Reference",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/plugins/ux-design/skills/top-design/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"Awwwards quality\", \"make my si"
+  },
+  {
+   "name": "transitions-agent",
+   "layer": "Motion",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/Jakubantalik_transitions.dev/agent/skill/SKILL.md"
+   ],
+   "sources": [
+    "Jakubantalik/transitions.dev"
+   ],
+   "description": "Scan a codebase for missing, janky, or inconsistent UI motion and fix it with transitions.dev recipes. ALWAYS use this skill when the user's message i"
+  },
+  {
+   "name": "transitions-dev",
+   "layer": "Motion",
+   "mode": "Reference",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/Jakubantalik_transitions.dev/skills/transitions-dev/SKILL.md"
+   ],
+   "sources": [
+    "Jakubantalik/transitions.dev"
+   ],
+   "description": "Production-ready CSS transitions for web apps. Use when implementing notification badges, dropdowns, modals, panel reveals, page transitions, card res"
+  },
+  {
+   "name": "transitions-polish",
+   "layer": "Motion",
+   "mode": "Fix",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/Jakubantalik_transitions.dev/skills/transitions-polish/SKILL.md"
+   ],
+   "sources": [
+    "Jakubantalik/transitions.dev"
+   ],
+   "description": "Polish and refine existing motion against the transitions.dev motion-token scale \u2014 duration, distance, scale, blur, and easing \u2014 plus the rules for WH"
+  },
+  {
+   "name": "transitions-ui-generation",
+   "layer": "AI-specific UX",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/Jakubantalik_transitions.dev/skills/transitions-ui-generation/SKILL.md"
+   ],
+   "sources": [
+    "Jakubantalik/transitions.dev"
+   ],
+   "description": "Make any UI, headline or image appear as if an AI agent is generating it. Five variants: ui (the default: a dotted wireframe drawn from the element's "
+  },
+  {
+   "name": "ui-skills-root",
+   "layer": "Screens/pages",
+   "mode": "Reference",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/ibelick_ui-skills/skills/ui-skills-root/SKILL.md"
+   ],
+   "sources": [
+    "ibelick/ui-skills"
+   ],
+   "description": "Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI."
+  },
+  {
+   "name": "ui-styling",
+   "layer": "Components/API",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/ui-styling/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill"
+   ],
+   "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-"
+  },
+  {
+   "name": "ui-ux-pro-max",
+   "layer": "Screens/pages",
+   "mode": "Reference",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/nextlevelbuilder_ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/SKILL.md"
+   ],
+   "sources": [
+    "nextlevelbuilder/ui-ux-pro-max-skill"
+   ],
+   "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including"
+  },
+  {
+   "name": "user-research",
+   "layer": "Product/why",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "design:user-research",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/user-research/SKILL.md"
+   ],
+   "sources": [
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Plan, conduct, and synthesize user research. Trigger with \"user research plan\", \"interview guide\", \"usability test\", \"survey design\", \"research questi"
+  },
+  {
+   "name": "ux-copy",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Generate",
+   "installed_at_generation": true,
+   "invoke": "design:ux-copy",
+   "paths": [
+    "/Users/nikhiljoshi/.claude/plugins/cache/knowledge-work-plugins/design/1.2.0/skills/ux-copy/SKILL.md"
+   ],
+   "sources": [
+    "plugin design (knowledge-work)"
+   ],
+   "description": "Write or review UX copy \u2014 microcopy, error messages, empty states, CTAs. Trigger with \"write copy for\", \"what should this button say?\", \"review this e"
+  },
+  {
+   "name": "ux-heuristics",
+   "layer": "Screens/pages",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/plugins/ux-design/skills/ux-heuristics/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"users are confused\", \"form usability"
+  },
+  {
+   "name": "ux-writing",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/plugin87_ux-ui-agent-skills/.claude/skills/ux-writing/SKILL.md"
+   ],
+   "sources": [
+    "plugin87/ux-ui-agent-skills"
+   ],
+   "description": "Write or review UI copy (buttons, errors, empty states, microcopy, notifications, labels) using the voice & tone system (clear, concise, useful, human"
+  },
+  {
+   "name": "vercel-composition-patterns",
+   "layer": "Components/API",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/vercel-labs_agent-skills/skills/composition-patterns/SKILL.md"
+   ],
+   "sources": [
+    "vercel-labs/agent-skills"
+   ],
+   "description": "Composition patterns for building flexible, maintainable React components. Avoid"
+  },
+  {
+   "name": "vercel-react-view-transitions",
+   "layer": "Motion",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/vercel-labs_agent-skills/skills/react-view-transitions/SKILL.md"
+   ],
+   "sources": [
+    "vercel-labs/agent-skills"
+   ],
+   "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS"
+  },
+  {
+   "name": "web-artifacts-builder",
+   "layer": "Screens/pages",
+   "mode": "Generate",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/anthropics_skills/skills/web-artifacts-builder/SKILL.md"
+   ],
+   "sources": [
+    "anthropics/skills"
+   ],
+   "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui"
+  },
+  {
+   "name": "web-design-guidelines",
+   "layer": "Cross-cutting (a11y, copy, perf)",
+   "mode": "Audit/review",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/vercel-labs_agent-skills/skills/web-design-guidelines/SKILL.md"
+   ],
+   "sources": [
+    "vercel-labs/agent-skills"
+   ],
+   "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"chec"
+  },
+  {
+   "name": "web-typography",
+   "layer": "Tokens/system",
+   "mode": "Doctrine",
+   "installed_at_generation": false,
+   "invoke": null,
+   "paths": [
+    "repos/wondelai_skills/plugins/ux-design/skills/web-typography/SKILL.md"
+   ],
+   "sources": [
+    "wondelai/skills"
+   ],
+   "description": "Select, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typogr"
+  },
+  {
+   "name": "design-director",
+   "layer": "Orchestration",
+   "mode": "Direct",
+   "installed_at_generation": true,
+   "invoke": "/design-director",
+   "paths": [
+    "skills/design-director/SKILL.md"
+   ],
+   "sources": [
+    "design-pack"
+   ],
+   "description": "Conversational design direction: explore / audit / redesign / route. Writes .design/brief.md or .design/audit.md; never edits product code."
+  },
+  {
+   "name": "design-builder",
+   "layer": "Orchestration",
+   "mode": "Build",
+   "installed_at_generation": true,
+   "invoke": "/design-builder",
+   "paths": [
+    "skills/design-builder/SKILL.md"
+   ],
+   "sources": [
+    "design-pack"
+   ],
+   "description": "Implements an approved .design/brief.md: foundations, tokens, layout, components, copy, motion, responsive, a11y, then review-and-fix loops."
+  }
+ ]
+}

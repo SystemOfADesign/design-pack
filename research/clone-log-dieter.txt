@@ -1,0 +1,4 @@
+OK    yangyue1974/rams-braun-ui  208K
+OK    dominikmartn/nothing-design-skill  3.3M
+OK    joe-bell/tenprinciples.design  1.3M
+OK    zedr/dieter-rams-10-applied-to-software  140K

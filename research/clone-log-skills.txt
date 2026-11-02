@@ -1,0 +1,9 @@
+OK    ibelick/ui-skills  5.3M
+OK    vercel-labs/agent-skills  9.4M
+OK    VoltAgent/awesome-design-md  3.7M
+OK    wondelai/skills   22M
+OK    LottieFiles/motion-design-skill  244K
+OK    Dammyjay93/interface-design  260K
+OK    plugin87/ux-ui-agent-skills   63M
+OK    Jakubantalik/transitions.dev   68M
+OK    kylezantos/design-motion-principles  424K
